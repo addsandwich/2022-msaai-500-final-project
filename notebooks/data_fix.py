@@ -59,6 +59,21 @@ def do_nothing(value):
     return value
 
 
+def drive_weels(value):
+    driveWeels = "4x4"
+    cleanData = re.sub(driveWeels, "Front-Rear", value)
+    return cleanData
+
+def doors(value):
+    One = "4-May"
+    Two = "2-Mar"
+    Three = ">5"
+    cleanData = re.sub(One, "4-5", value) # if there is "4-May" replace it with "4-5"
+    cleanDataTwo = re.sub(Two, "2-3", cleanData) # if there is "2-Mar" replace it with "2-3"
+    cleanDataTree = re.sub(Three, "5+", cleanDataTwo) # if there is ">5" replace it with "5+"
+    return cleanDataTree
+
+
 # Initialization Measures
 def init():
     global sanitize_dict
@@ -67,7 +82,7 @@ def init():
                      'Manufacturer': manuf_preprocess, 'Model': model_preprocess, 'Prod_year': do_nothing,
                      'Category': do_nothing, 'Leather_interior': do_nothing, 'Fuel_type': do_nothing,
                      'Engine_volume': engine_col_preprocess, 'Mileage': do_nothing, 'Cylinders': do_nothing,
-                     'Gear_box_type': do_nothing, 'Drive_wheels': do_nothing, 'Doors': do_nothing, 'Wheel': do_nothing,
+                     'Gear_box_type': do_nothing, 'Drive_wheels': do_nothing, 'Drive_wheels': drive_weels, 'Doors': doors,
                      'Color': do_nothing, 'Airbags': do_nothing}
 
 
