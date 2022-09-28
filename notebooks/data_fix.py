@@ -64,11 +64,11 @@ def init():
     global sanitize_dict
     # add all definitions
     sanitize_dict = {'ID': id_col_preprocess, 'Price': price_levy_col_preprocess, 'Levy': price_levy_col_preprocess,
-                     'Manufacturer': manuf_preprocess, 'Model': model_preprocess, 'Prod_year': do_nothing, 'Category': do_nothing,
-                     'Leather_interior': do_nothing, 'Fuel_type': do_nothing, 'Engine_volume': engine_col_preprocess,
-                     'Mileage': do_nothing, 'Cylinders': do_nothing, 'Gear_box_type': do_nothing,
-                     'Drive_wheels': do_nothing, 'Doors': do_nothing, 'Wheel': do_nothing, 'Color': do_nothing,
-                     'Airbags': do_nothing}
+                     'Manufacturer': manuf_preprocess, 'Model': model_preprocess, 'Prod_year': do_nothing,
+                     'Category': do_nothing, 'Leather_interior': do_nothing, 'Fuel_type': do_nothing,
+                     'Engine_volume': engine_col_preprocess, 'Mileage': do_nothing, 'Cylinders': do_nothing,
+                     'Gear_box_type': do_nothing, 'Drive_wheels': do_nothing, 'Doors': do_nothing, 'Wheel': do_nothing,
+                     'Color': do_nothing, 'Airbags': do_nothing}
 
 
 # File Scrubbing Function
