@@ -35,6 +35,20 @@ def price_levy_col_preprocess(value):
     return clean_str
 
 
+def manuf_preprocess(value):
+    clean_str = str(value).upper()
+    clean_str = clean_str.strip()
+    return clean_str
+
+
+def model_preprocess(value):
+    clean_str = str(value).upper()
+    clean_str = clean_str.strip()
+    clean_str = clean_str.replace(',', '.')
+    clean_str = clean_str.replace('9-MAR', '9-3')
+    return clean_str
+
+
 def engine_col_preprocess(value):
     clean_str = [value, '']
     return clean_str
@@ -50,7 +64,7 @@ def init():
     global sanitize_dict
     # add all definitions
     sanitize_dict = {'ID': id_col_preprocess, 'Price': price_levy_col_preprocess, 'Levy': price_levy_col_preprocess,
-                     'Manufacturer': do_nothing, 'Model': do_nothing, 'Prod_year': do_nothing, 'Category': do_nothing,
+                     'Manufacturer': manuf_preprocess, 'Model': model_preprocess, 'Prod_year': do_nothing, 'Category': do_nothing,
                      'Leather_interior': do_nothing, 'Fuel_type': do_nothing, 'Engine_volume': engine_col_preprocess,
                      'Mileage': do_nothing, 'Cylinders': do_nothing, 'Gear_box_type': do_nothing,
                      'Drive_wheels': do_nothing, 'Doors': do_nothing, 'Wheel': do_nothing, 'Color': do_nothing,
@@ -113,6 +127,9 @@ def scrub_txt_file():
                         temp_values[list_of_column_names[xcol]] = \
                             sanitize_dict[list_of_column_names[xcol]](row_temp[xcol])
                 # add dictionary to dictionary list
+                # Account for empty manufacturing slots by using the model
+                if not temp_values["Manufacturer"] and not temp_values["Manufacturer"].strip():
+                    temp_values["Manufacturer"] = sanitize_dict["Manufacturer"](temp_values["Model"])
                 tmp_a_1.append(temp_values)
         # move it all to a panda dataframe
         df_1 = pd.json_normalize(tmp_a_1)
@@ -121,7 +138,6 @@ def scrub_txt_file():
         # create final CSV
         df_1.to_csv(final_out)
         print(final_out)
-
         # return data for usage in other applications
         return df_1
 
