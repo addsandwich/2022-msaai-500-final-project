@@ -116,6 +116,12 @@ def scrub_txt_file():
                 tmp_a_1.append(temp_values)
         # move it all to a panda dataframe
         df_1 = pd.json_normalize(tmp_a_1)
+        # make final outfile
+        final_out = clean_file[:-4] + "_final.csv"
+        # create final CSV
+        df_1.to_csv(final_out)
+        print(final_out)
+
         # return data for usage in other applications
         return df_1
 
