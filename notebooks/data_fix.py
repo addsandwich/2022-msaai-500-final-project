@@ -50,7 +50,13 @@ def model_preprocess(value):
 
 
 def engine_col_preprocess(value):
-    clean_str = [value, '']
+    if len(value)==0:
+        clean_str = ["N/A","N/A"]
+    liter = value.split()
+    if liter[-1] == "Turbo":
+        clean_str = [liter[0], liter[-1]]
+    else:
+        clean_str = [liter[-1], ""]
     return clean_str
 
 
@@ -73,6 +79,41 @@ def doors(value):
     cleanDataTree = re.sub(Three, "5+", cleanDataTwo) # if there is ">5" replace it with "5+"
     return cleanDataTree
 
+def production_year_col_preprocess(value):
+    regex = "[^0-9]"
+    clean_str = re.sub(regex, '', value)
+    if not clean_str and not clean_str.strip():
+        clean_str = "0"
+    if int(clean_str) < 1886:
+        clean_str = "0"
+    return clean_str
+
+def category_col_preprocess(value):
+    clean_str = value
+    if len(clean_str)==0:
+        clean_str = "N/A"
+    return clean_str
+
+def leather_interior_col_preprocess(value):
+    clean_str = value
+    if len(clean_str)==0:
+        clean_str = "N/A"
+    if clean_str.casefold() != "yes" and clean_str.casefold()  != "no":
+        clean_str = "N/A"
+    return clean_str
+
+def fuel_type_col_preprocess(value):
+    clean_str = value
+    if len(clean_str)==0:
+        clean_str = "N/A"
+    return clean_str
+
+def mileage_col_preprocess(value):
+    if len(value)==0:
+        clean_str = "0"
+    else:
+        clean_str, unit = value.split()
+    return clean_str
 
 # Initialization Measures
 def init():
