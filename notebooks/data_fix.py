@@ -8,13 +8,12 @@
 #   Bin Lu
 #   Maimuna Bashir
 ###################################################################################
-
 import re
-import tkinter as tk
-from tkinter import filedialog
 import csv
 import pandas as pd
 from IPython.display import display
+import data_utils_g1 as du
+
 
 # This dictionary stores the sanitize functions
 sanitize_dict = {}
@@ -50,7 +49,13 @@ def model_preprocess(value):
 
 
 def engine_col_preprocess(value):
-    clean_str = [value, '']
+    if len(value)==0:
+        clean_str = ["N/A","N/A"]
+    liter = value.split()
+    if liter[-1] == "Turbo":
+        clean_str = [liter[0], liter[-1]]
+    else:
+        clean_str = [liter[-1], ""]
     return clean_str
 
 
@@ -59,15 +64,75 @@ def do_nothing(value):
     return value
 
 
+def drive_weels(value):
+    driveWeels = "4x4"
+    cleanData = re.sub(driveWeels, "Front-Rear", value)
+    return cleanData
+
+
+def doors(value):
+    One = "4-May"
+    Two = "2-Mar"
+    Three = ">5"
+    cleanData = re.sub(One, "4-5", value)  # if there is "4-May" replace it with "4-5"
+    cleanDataTwo = re.sub(Two, "2-3", cleanData)  # if there is "2-Mar" replace it with "2-3"
+    cleanDataTree = re.sub(Three, "5+", cleanDataTwo)  # if there is ">5" replace it with "5+"
+    return cleanDataTree
+
+
+def production_year_col_preprocess(value):
+    regex = "[^0-9]"
+    clean_str = re.sub(regex, '', value)
+    if not clean_str and not clean_str.strip():
+        clean_str = "0"
+    if int(clean_str) < 1886:
+        clean_str = "0"
+    return clean_str
+
+
+def category_col_preprocess(value):
+    clean_str = value
+    if len(clean_str)==0:
+        clean_str = "N/A"
+    return clean_str
+
+
+def leather_interior_col_preprocess(value):
+    clean_str = value
+    if len(clean_str)==0:
+        clean_str = "N/A"
+    if clean_str.casefold() != "yes" and clean_str.casefold()  != "no":
+        clean_str = "N/A"
+    return clean_str
+
+
+def fuel_type_col_preprocess(value):
+    clean_str = value
+    if len(clean_str)==0:
+        clean_str = "N/A"
+    return clean_str
+
+
+def mileage_col_preprocess(value):
+    if len(value)==0:
+        clean_str = "0"
+    else:
+        clean_str, unit = value.split()
+    return clean_str
+
+
 # Initialization Measures
 def init():
     global sanitize_dict
     # add all definitions
     sanitize_dict = {'ID': id_col_preprocess, 'Price': price_levy_col_preprocess, 'Levy': price_levy_col_preprocess,
-                     'Manufacturer': manuf_preprocess, 'Model': model_preprocess, 'Prod_year': do_nothing,
-                     'Category': do_nothing, 'Leather_interior': do_nothing, 'Fuel_type': do_nothing,
-                     'Engine_volume': engine_col_preprocess, 'Mileage': do_nothing, 'Cylinders': do_nothing,
-                     'Gear_box_type': do_nothing, 'Drive_wheels': do_nothing, 'Doors': do_nothing, 'Wheel': do_nothing,
+                     'Manufacturer': manuf_preprocess, 'Model': model_preprocess,
+                     'Prod_year': production_year_col_preprocess,
+                     'Category': category_col_preprocess, 'Leather_interior': leather_interior_col_preprocess,
+                     'Fuel_type': fuel_type_col_preprocess,
+                     'Engine_volume': engine_col_preprocess, 'Mileage': mileage_col_preprocess,
+                     'Cylinders': do_nothing,
+                     'Gear_box_type': do_nothing, 'Drive_wheels': drive_weels, 'Wheel': drive_weels, 'Doors': doors,
                      'Color': do_nothing, 'Airbags': do_nothing}
 
 
@@ -75,11 +140,7 @@ def init():
 def scrub_txt_file():
     # THIS SECTION SCRUBS SPECIAL CHARACTERS FROM THE ENTIRE FILE
     # get the file path
-    # init windows stuff
-    root = tk.Tk()
-    root.withdraw()
-    print("Asking for original data file path")
-    file_path = filedialog.askopenfilename()
+    file_path = du.open_file_general()
     print("Replacing all special characters for clean read")
     bad_string = open(file_path, encoding="utf8").read()
     # create regex that only gets basic characters
@@ -87,7 +148,7 @@ def scrub_txt_file():
     clean_str = re.sub(regex, ' ', bad_string)
     # write out sanitized file
     print("Asking for cleaned data file save location")
-    clean_file = save_file_string(clean_str)
+    clean_file = du.save_file_string(clean_str)
     print("Printing save location:")
     print(clean_file)
 
@@ -140,16 +201,6 @@ def scrub_txt_file():
         print(final_out)
         # return data for usage in other applications
         return df_1
-
-
-# General Save Function
-def save_file_string(out_string):
-    fd = filedialog.asksaveasfile(mode='w', defaultextension=".txt")
-    if fd is None:
-        return
-    fd.write(out_string)
-    fd.close()
-    return fd.name
 
 
 def main():
