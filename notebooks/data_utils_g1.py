@@ -83,16 +83,16 @@ def iqr_outliers(data, col):
 # This is our decided outlier removal method
 # This is a quantile based capping and flooring method
 # This simple method seems to be the best out of all of our other attempts
-def removeOutliers2(data):
+def removeOutliers2(data, col):
     sorted(data)
-    Q3 = np.quantile(data, 0.99985)
-    Q1 = np.quantile(data, 0.00015)
+    Q3 = np.quantile(data[col], 0.99985)
+    Q1 = np.quantile(data[col], 0.00015)
     
-    filtered_data = 0 
     lower_range = Q1
     upper_range = Q3
+    filtered_data = 0
     
-    outlier_free_list = [x for x in data if (
+    outlier_free_list = [x for x in data[col] if (
         (x > lower_range) & (x < upper_range))]
-    filtered_data = data.loc[data.isin(outlier_free_list)]
+    filtered_data = data[col].loc[data[col].isin(outlier_free_list)]
     return Q3, Q1, filtered_data
