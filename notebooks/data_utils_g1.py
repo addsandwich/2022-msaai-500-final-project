@@ -11,7 +11,7 @@
 import tkinter as tk
 from tkinter import filedialog
 import json
-
+import numpy as np
 
 def load_py_dict():
     print("Asking for dictionary data file path")
@@ -60,3 +60,39 @@ def create_enum_dict(unique_list):
     for i in range(len(unique_list)):
         res_dict[str(i)]=unique_list[i]
     return res_dict
+
+
+# DON'T USE
+# Removing the outliers using IRQ
+def iqr_outliers(data, col):
+    Q3 = np.quantile(data[col], 0.75)
+    Q1 = np.quantile(data[col], 0.25)
+    IQR = Q3 - Q1
+
+    outlier_free_list = 0
+    filtered_data = 0
+
+    lower_range = Q1 - 1.5 * IQR
+    upper_range = Q3 + 1.5 * IQR
+    outlier_free_list = [x for x in data[col] if (
+            (x > lower_range) & (x < upper_range))]
+    filtered_data = data.loc[data[col].isin(outlier_free_list)]
+    return filtered_data
+
+
+# This is our decided outlier removal method
+# This is a quantile based capping and flooring method
+# This simple method seems to be the best out of all of our other attempts
+def removeOutliers2(data):
+    sorted(data)
+    Q3 = np.quantile(data, 0.99985)
+    Q1 = np.quantile(data, 0.00015)
+    
+    filtered_data = 0 
+    lower_range = Q1
+    upper_range = Q3
+    
+    outlier_free_list = [x for x in data if (
+        (x > lower_range) & (x < upper_range))]
+    filtered_data = data.loc[data.isin(outlier_free_list)]
+    return Q3, Q1, filtered_data
