@@ -1,1 +1,20 @@
-{'ID': 'Unique identifier/key', 'Price': 'Price of the car', 'Levy': 'Tax applied to purchase price', 'Manufacturer': 'Name of car manufacturer', 'Model': 'Model of the car', 'Prod_year': 'Year the car was produced', 'Category': 'Category by body type of the car', 'Leather_interior': 'Whether or not the car has a leather interior', 'Fuel_type': 'Fuel type of the car', 'Engine_volume': 'Engine size/volume of the car', 'Mileage': 'Total mileage on the car', 'Cylinders': 'Number of cylinders', 'Gear_box_type': 'Type of gear box', 'Drive_wheels': 'Drive wheels on the car', 'Doors': 'Number of doors on the car', 'Wheel': 'Side of the steering wheel', 'Color': 'Exterior color of the car', 'Airbags': 'Number of airbags in the car'}
+{
+    "ID": "Unique identifier/key",
+    "Price": "Price of the car",
+    "Levy": "Tax applied to purchase price",
+    "Manufacturer": "Name of car manufacturer",
+    "Model": "Model of the car",
+    "Prod_year": "Year the car was produced",
+    "Category": "Category by body type of the car",
+    "Leather_interior": "Whether or not the car has a leather interior",
+    "Fuel_type": "Fuel type of the car",
+    "Engine_volume": "Engine size/volume of the car",
+    "Mileage": "Total mileage on the car",
+    "Cylinders": "Number of cylinders",
+    "Gear_box_type": "Type of gear box",
+    "Drive_wheels": "Drive wheels on the car",
+    "Doors": "Number of doors on the car",
+    "Wheel": "Side of the steering wheel",
+    "Color": "Exterior color of the car",
+    "Airbags": "Number of airbags in the car"
+}

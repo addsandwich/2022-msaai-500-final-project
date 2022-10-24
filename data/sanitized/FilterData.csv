@@ -220,7 +220,6 @@ Unnamed: 0,ID,Price,Levy,Manufacturer,Model,Prod_year,Category,Leather_interior,
 218,45809193,5620,447,HONDA,FIT,2013,Hatchback,Yes,Petrol,1.3,,110467,4,Automatic,Front,4-5,Left wheel,White,4
 219,41704944,19130,2148,MERCEDES-BENZ,CLS 550,2010,Sedan,Yes,Petrol,5.5,,157000,4,Automatic,Front,4-5,Left wheel,Grey,10
 220,45095136,9408,1111,HONDA,FIT,2012,Hatchback,No,Hybrid,1.3,,64000,4,Variator,Front,4-5,Right-hand drive,Black,4
-221,45612423,3,0,HYUNDAI,ELANTRA,2011,Sedan,Yes,Petrol,1.8,,80000,4,Tiptronic,Front,4-5,Left wheel,Grey,6
 222,45781861,15367,640,VOLKSWAGEN,PASSAT,2013,Sedan,Yes,Diesel,2.0,Turbo,179200,4,Tiptronic,Front,4-5,Left wheel,White,16
 223,45768489,5959,1730,CHEVROLET,AVALANCHE,2011,Sedan,Yes,Petrol,5.3,,246976,8,Automatic,Front,4-5,Left wheel,Black,12
 224,45731459,26594,777,HYUNDAI,H1,2014,Minivan,Yes,Diesel,2.5,,179918,4,Automatic,Front,4-5,Left wheel,Silver,4
@@ -752,7 +751,6 @@ Unnamed: 0,ID,Price,Levy,Manufacturer,Model,Prod_year,Category,Leather_interior,
 750,45815980,2509,585,HYUNDAI,ELANTRA,2013,Hatchback,Yes,Petrol,1.8,,279182,4,Automatic,Front,4-5,Left wheel,Red,12
 751,45816009,13172,474,FIAT,500C LOUNGE,2013,Cabriolet,Yes,Petrol,1.4,,70000,4,Automatic,Front,2-3,Left wheel,Blue,6
 752,45797079,16123,836,HYUNDAI,GENESIS,2010,Coupe,Yes,Petrol,2.0,,123187,4,Automatic,Front,4-5,Left wheel,Black,4
-753,45776614,3,0,NISSAN,X-TERRA,2004,Jeep,No,Petrol,3.3,,323200,6,Automatic,Front-Rear,4-5,Left wheel,Black,2
 754,45787383,9408,0,MITSUBISHI,MONTERO,2000,Jeep,No,LPG,3.0,,214000,6,Automatic,Rear,4-5,Left wheel,Black,4
 755,45797402,11917,531,HYUNDAI,I30,2012,Hatchback,Yes,Diesel,1.6,,78807,4,Automatic,Front,4-5,Left wheel,Silver,4
 756,45772565,9565,915,AUDI,A7,2014,Hatchback,Yes,Petrol,3.0,,191373,6,Automatic,Front-Rear,4-5,Left wheel,Grey,0
@@ -1026,6 +1024,7 @@ Unnamed: 0,ID,Price,Levy,Manufacturer,Model,Prod_year,Category,Leather_interior,
 1024,45801936,18776,629,HYUNDAI,ELANTRA,2015,Sedan,Yes,Diesel,1.6,,51895,4,Automatic,Front,4-5,Left wheel,Silver,4
 1025,45640542,4861,333,FORD,FUSION,2014,Sedan,Yes,Hybrid,2.0,,124493,4,Automatic,Front,4-5,Left wheel,White,0
 1026,45758239,6272,1360,LEXUS,GX 470,2013,Jeep,Yes,Petrol,4.6,,202651,8,Automatic,Front-Rear,4-5,Left wheel,Black,0
+1027,45038100,131716,0,TOYOTA,LAND CRUISER PRADO,2018,Jeep,Yes,Diesel,3.0,Turbo,59826,4,Automatic,Front-Rear,4-5,Left wheel,Black,12
 1028,45801660,19121,583,HYUNDAI,ELANTRA,2011,Sedan,Yes,Petrol,1.6,,132742,4,Automatic,Front,4-5,Left wheel,Silver,4
 1029,45730695,43576,730,SSANGYONG,ACTYON,2016,Jeep,Yes,Diesel,1.6,,33261,4,Automatic,Front,4-5,Left wheel,White,4
 1030,43434477,33243,0,AUDI,A3 PREMIUM,2015,Sedan,Yes,Petrol,1.8,Turbo,38000,4,Tiptronic,Front,4-5,Left wheel,Grey,10
@@ -1143,6 +1142,7 @@ Unnamed: 0,ID,Price,Levy,Manufacturer,Model,Prod_year,Category,Leather_interior,
 1142,45758569,23521,0,SUBARU,XV,2013,Jeep,Yes,Hybrid,2.0,,800,6,Automatic,Front-Rear,4-5,Right-hand drive,White,6
 1143,45809972,54048,382,TOYOTA,AQUA,2017,Universal,Yes,Hybrid,1.5,,9027,4,Automatic,Front,4-5,Left wheel,Blue,4
 1144,45813880,470,1017,FORD,FUSION,2017,Sedan,Yes,Petrol,2.0,,158344,4,Automatic,Front-Rear,4-5,Left wheel,Silver,12
+1145,43073652,194438,0,MERCEDES-BENZ,G 350,2013,Jeep,Yes,Diesel,3.0,Turbo,94000,6,Automatic,Front-Rear,4-5,Left wheel,Black,6
 1146,44615609,13485,0,BMW,525,2003,Sedan,Yes,Petrol,2.5,,7777787,6,Manual,Rear,4-5,Left wheel,Silver,10
 1147,45785315,7840,0,MITSUBISHI,PAJERO,1992,Jeep,No,Petrol,3.0,,123000,6,Manual,Front-Rear,2-3,Left wheel,Silver,0
 1148,45765804,2500,0,MERCEDES-BENZ,E 220,1993,Coupe,No,Petrol,2.2,,450000,4,Manual,Rear,2-3,Left wheel,Silver,2
@@ -1176,6 +1176,7 @@ Unnamed: 0,ID,Price,Levy,Manufacturer,Model,Prod_year,Category,Leather_interior,
 1176,45649077,39201,1714,MERCEDES-BENZ,GLE 350,2017,Jeep,Yes,Petrol,3.5,,95541,6,Automatic,Rear,4-5,Left wheel,Black,0
 1177,45810316,21410,642,CHEVROLET,MALIBU,2012,Sedan,Yes,Petrol,2.0,,131082,4,Automatic,Front,4-5,Left wheel,Silver,4
 1178,45730489,24029,1099,SSANGYONG,REXTON,2010,Jeep,Yes,Diesel,2.7,,151949,4,Automatic,Front,4-5,Left wheel,Black,4
+1179,45768671,133284,690,LEXUS,RX 450,2016,Jeep,Yes,Hybrid,3.5,,55000,6,Tiptronic,Front-Rear,4-5,Left wheel,Black,12
 1180,44775630,26657,1197,NISSAN,PATHFINDER,2012,Jeep,Yes,Petrol,4.0,,170000,4,Automatic,Front-Rear,4-5,Left wheel,Black,12
 1181,45809466,41867,382,HONDA,FIT,2017,Universal,Yes,Hybrid,1.5,,29220,4,Automatic,Front,4-5,Left wheel,Black,4
 1182,45733460,44608,891,HYUNDAI,SONATA,2016,Sedan,Yes,Petrol,2.0,,63687,4,Automatic,Front,4-5,Left wheel,Grey,4
@@ -1396,6 +1397,7 @@ Unnamed: 0,ID,Price,Levy,Manufacturer,Model,Prod_year,Category,Leather_interior,
 1398,45802242,31581,777,HYUNDAI,H1,2014,Minivan,Yes,Diesel,2.5,,96893,4,Automatic,Front,4-5,Left wheel,Silver,4
 1399,45728728,23207,0,TOYOTA,PRIUS,2013,Hatchback,No,Hybrid,1.8,,72000,4,Automatic,Front,4-5,Left wheel,White,12
 1400,45789784,6500,0,MERCEDES-BENZ,C 180,1996,Sedan,No,Petrol,1.8,,230000,4,Manual,Rear,4-5,Left wheel,Red,2
+1401,45802554,131308,1968,HYUNDAI,SANTA FE,2019,Jeep,Yes,Petrol,3.8,,21281,4,Automatic,Front,4-5,Left wheel,White,4
 1402,45771345,470,645,TOYOTA,PRIUS,2011,Sedan,Yes,Hybrid,1.8,,353606,4,Automatic,Front,4-5,Left wheel,Grey,12
 1403,45811017,470,862,FORD,ESCAPE,2011,Jeep,Yes,Hybrid,2.5,,109781,4,Automatic,Front-Rear,4-5,Left wheel,White,12
 1404,45814878,9095,0,BMW,328,2002,Sedan,No,Petrol,2.8,,55556665,6,Manual,Rear,4-5,Left wheel,Silver,6
@@ -2277,6 +2279,7 @@ Unnamed: 0,ID,Price,Levy,Manufacturer,Model,Prod_year,Category,Leather_interior,
 2280,45803088,28059,640,HYUNDAI,SANTA FE,2013,Jeep,Yes,Diesel,2.0,,52351,4,Automatic,Front,4-5,Left wheel,White,4
 2281,45704418,50,0,TOYOTA,PRIUS,2012,Sedan,Yes,Hybrid,1.8,,150000,4,Automatic,Front,4-5,Left wheel,White,6
 2282,45798293,15624,528,HYUNDAI,ELANTRA,2014,Sedan,Yes,Petrol,1.6,,164649,4,Automatic,Front,4-5,Left wheel,Grey,4
+2283,45786808,219527,0,BENTLEY,CONTINENTAL GT,2012,Coupe,Yes,Petrol,4.0,Turbo,55500,8,Tiptronic,Front-Rear,2-3,Left wheel,Black,0
 2284,45762934,282,640,AUDI,A4,2013,Sedan,Yes,Petrol,2.0,,157584,4,Automatic,Front-Rear,4-5,Left wheel,Black,0
 2285,45734479,30,0,HONDA,FIT,2003,Hatchback,No,Petrol,1.3,,0,4,Automatic,Front,4-5,Right-hand drive,Red,4
 2286,45620566,3763,1850,MERCEDES-BENZ,E 350,2008,Sedan,Yes,Diesel,3.5,,494317,6,Automatic,Front-Rear,4-5,Left wheel,Black,12
@@ -2761,6 +2764,7 @@ Unnamed: 0,ID,Price,Levy,Manufacturer,Model,Prod_year,Category,Leather_interior,
 2765,45590465,24618,1324,TOYOTA,HIGHLANDER,2010,Jeep,Yes,Hybrid,3.3,,132603,4,Tiptronic,Front-Rear,4-5,Left wheel,White,8
 2766,45804500,22947,642,HYUNDAI,TUCSON,2012,Jeep,Yes,Diesel,2.0,,180491,4,Automatic,Front,4-5,Left wheel,Silver,4
 2767,45815365,7213,0,MAZDA,DEMIO EVROPULI,2003,Hatchback,No,CNG,1.4,,185000,4,Manual,Front,4-5,Left wheel,Blue,4
+2768,45772445,172486,0,TOYOTA,LAND CRUISER,2018,Jeep,Yes,Diesel,4.7,Turbo,13000,12,Automatic,Front-Rear,4-5,Left wheel,White,16
 2769,45092262,21012,1249,MAZDA,MAZDA 6 TOURING,2017,Sedan,Yes,Petrol,2.5,,75492,4,Automatic,Front,4-5,Left wheel,Red,8
 2770,45776012,8000,0,MERCEDES-BENZ,VITO,1998,Minivan,No,CNG,2.3,,300000,4,Manual,Front,5,Left wheel,Silver,5
 2771,45764236,6586,1190,TOYOTA,TACOMA,2014,Sedan,Yes,Petrol,4.0,,0,6,Automatic,Rear,4-5,Left wheel,Silver,12
@@ -2904,6 +2908,7 @@ Unnamed: 0,ID,Price,Levy,Manufacturer,Model,Prod_year,Category,Leather_interior,
 2909,45155540,8000,1236,TOYOTA,VITZ,2011,Hatchback,No,Petrol,1.3,,203000,4,Variator,Front-Rear,4-5,Right-hand drive,Blue,2
 2910,45816486,10300,0,OPEL,ZAFIRA,2006,Minivan,No,CNG,1.6,,350000,4,Manual,Front,4-5,Left wheel,White,6
 2911,45768639,314,891,MINI,COOPER S CABRIO,2016,Hatchback,Yes,Petrol,2.0,,59408,4,Automatic,Front,4-5,Left wheel,Black,12
+2912,45798754,172486,1951,MERCEDES-BENZ,S 63 AMG,2015,Sedan,Yes,Petrol,5.5,Turbo,73600,8,Tiptronic,Rear,4-5,Left wheel,Black,16
 2913,45662261,4861,308,HONDA,CIVIC,2015,Sedan,Yes,Hybrid,1.5,,49272,4,Automatic,Front,4-5,Left wheel,Blue,0
 2914,45789984,17405,706,KIA,SPORTAGE,2011,Jeep,Yes,Diesel,2.0,,47232,4,Automatic,Front,4-5,Left wheel,Grey,4
 2915,45776496,3763,0,MERCEDES-BENZ,E 230,1997,Sedan,Yes,Petrol,2.3,,105000,4,Automatic,Rear,4-5,Left wheel,Silver,4
@@ -2997,6 +3002,7 @@ Unnamed: 0,ID,Price,Levy,Manufacturer,Model,Prod_year,Category,Leather_interior,
 3003,44804664,10017,966,VOLKSWAGEN,CADDY,2009,Goods wagon,No,Diesel,2.0,Turbo,238000,4,Manual,Front,4-5,Left wheel,White,2
 3004,45813328,31988,1017,LEXUS,NX 200,2017,Jeep,Yes,Petrol,2.0,,54120,4,Automatic,Front-Rear,4-5,Left wheel,Grey,12
 3005,45804764,34406,770,HYUNDAI,TUCSON,2016,Jeep,Yes,Diesel,1.7,,101248,4,Automatic,Front,4-5,Left wheel,Grey,4
+3006,45747002,141124,0,LAND ROVER,LAND ROVER SPORT,2015,Jeep,Yes,Diesel,3.0,Turbo,90000,6,Tiptronic,Front-Rear,4-5,Left wheel,Black,12
 3007,45768472,392,1304,BMW,750,2013,Sedan,Yes,Petrol,4.4,,87243,8,Automatic,Rear,4-5,Left wheel,Blue,12
 3008,45806439,8154,0,TOYOTA,CALDINA,2003,Universal,No,Petrol,2.0,,112000,4,Automatic,Front,4-5,Right-hand drive,Silver,4
 3009,45781865,29793,0,HYUNDAI,TUCSON,2010,Jeep,Yes,Petrol,2.4,,180000,4,Tiptronic,Front-Rear,4-5,Left wheel,White,10
@@ -3560,6 +3566,7 @@ Unnamed: 0,ID,Price,Levy,Manufacturer,Model,Prod_year,Category,Leather_interior,
 3567,45771993,157,333,FORD,FUSION,2014,Sedan,Yes,Hybrid,2.0,,186048,4,Automatic,Front,4-5,Left wheel,Black,0
 3568,45730619,9252,1273,SSANGYONG,REXTON,2009,Jeep,Yes,Diesel,2.7,,60227,4,Automatic,Front,4-5,Left wheel,Silver,4
 3569,45793663,21953,779,TOYOTA,CAMRY,2013,Sedan,Yes,Petrol,2.5,,78082,4,Tiptronic,Front,4-5,Left wheel,Black,12
+3570,45809069,132971,1493,FORD,F150,2016,Sedan,Yes,Petrol,3.5,,30573,4,Automatic,Front,4-5,Left wheel,White,4
 3571,45761182,188,289,FORD,ESCAPE,2008,Sedan,Yes,Hybrid,0.4,,209843,4,Automatic,Front,4-5,Left wheel,Grey,0
 3572,45551485,10349,0,BMW,525,2004,Sedan,Yes,Petrol,2.5,,250000,6,Automatic,Rear,4-5,Left wheel,Grey,4
 3573,45798255,19130,528,HYUNDAI,ELANTRA,2014,Sedan,Yes,Diesel,1.6,,142495,4,Automatic,Front,4-5,Left wheel,White,4
@@ -4033,6 +4040,7 @@ Unnamed: 0,ID,Price,Levy,Manufacturer,Model,Prod_year,Category,Leather_interior,
 4041,45770520,25089,0,TOYOTA,PRIUS,2011,Hatchback,Yes,Hybrid,1.8,Turbo,135000,4,Variator,Front,4-5,Left wheel,Silver,12
 4042,45816132,1725,749,HYUNDAI,SONATA,2014,Sedan,Yes,Petrol,2.4,,225734,4,Automatic,Front,4-5,Left wheel,Blue,12
 4043,45812222,36065,0,PORSCHE,CAYENNE,2009,Jeep,Yes,Diesel,3.0,Turbo,195000,6,Tiptronic,Front-Rear,4-5,Left wheel,Black,8
+4044,45793109,156805,0,MERCEDES-BENZ,GLS 450,2018,Jeep,Yes,Petrol,3.0,,31000,6,Tiptronic,Front-Rear,4-5,Left wheel,Black,0
 4045,45761305,23678,781,TOYOTA,RAV 4,2012,Jeep,No,Petrol,2.5,,177600,4,Automatic,Front,4-5,Left wheel,Black,11
 4046,45769371,23521,1058,TOYOTA,HIGHLANDER,2012,Jeep,Yes,Petrol,3.5,,140966,6,Automatic,Front-Rear,4-5,Left wheel,Black,12
 4047,45803431,15681,891,HYUNDAI,SONATA,2016,Sedan,Yes,LPG,2.0,,305511,4,Automatic,Front,4-5,Left wheel,Silver,4
@@ -4710,6 +4718,7 @@ Unnamed: 0,ID,Price,Levy,Manufacturer,Model,Prod_year,Category,Leather_interior,
 4719,45782037,19444,707,AUDI,A3,2011,Hatchback,Yes,Petrol,2.0,Turbo,145600,4,Manual,Front,4-5,Left wheel,Black,8
 4720,45772748,1568,1493,MERCEDES-BENZ,E 350,2016,Sedan,Yes,Diesel,3.5,,77205,6,Automatic,Rear,4-5,Left wheel,Grey,12
 4721,45767025,8154,1156,FORD,EXPLORER,2017,Jeep,Yes,Petrol,2.3,,87688,4,Automatic,Front,4-5,Left wheel,Grey,12
+4722,45813777,175622,2819,BENTLEY,MULSANNE,2016,Sedan,Yes,Petrol,6.8,,6189,8,Automatic,Rear,4-5,Left wheel,Black,12
 4723,45803529,11262,639,HYUNDAI,SONATA,2014,Sedan,Yes,LPG,2.0,,71466,4,Automatic,Front,4-5,Left wheel,White,4
 4724,44754545,12544,1832,MERCEDES-BENZ,VITO,2005,Minivan,No,Diesel,2.2,Turbo,223000,4,Manual,Rear,4-5,Left wheel,Green,2
 4725,45618013,11133,1053,MERCEDES-BENZ,E 350,2014,Sedan,Yes,Diesel,3.5,,238546,6,Automatic,Front-Rear,4-5,Left wheel,Black,12
@@ -4763,7 +4772,6 @@ Unnamed: 0,ID,Price,Levy,Manufacturer,Model,Prod_year,Category,Leather_interior,
 4773,45810480,32393,730,CHEVROLET,ORLANDO,2016,Jeep,Yes,Diesel,1.6,,59191,4,Automatic,Front,4-5,Left wheel,White,4
 4774,45788149,29793,1202,JEEP,RENEGADE,2017,Jeep,Yes,Petrol,2.4,,78000,4,Tiptronic,Front-Rear,4-5,Left wheel,Red,16
 4775,45388322,62722,0,MERCEDES-BENZ,E 350,2014,Sedan,Yes,Hybrid,3.5,,114000,6,Tiptronic,Rear,4-5,Left wheel,White,12
-4776,45687380,3,810,VOLKSWAGEN,JETTA,2016,Sedan,Yes,Petrol,1.8,Turbo,41000,4,Automatic,Front,4-5,Left wheel,White,8
 4777,45788519,24462,697,TOYOTA,COROLLA,2015,Sedan,Yes,Petrol,1.8,,43294,4,Automatic,Front,4-5,Left wheel,Black,12
 4778,45617986,1568,1598,MERCEDES-BENZ,E 350,2008,Sedan,Yes,Diesel,3.0,,175614,6,Automatic,Rear,4-5,Left wheel,Black,12
 4779,45768236,8311,891,MERCEDES-BENZ,GLA 250,2016,Jeep,Yes,Petrol,2.0,,109555,4,Automatic,Front,4-5,Left wheel,White,0
@@ -4945,7 +4953,6 @@ Unnamed: 0,ID,Price,Levy,Manufacturer,Model,Prod_year,Category,Leather_interior,
 4955,45787526,15367,0,MERCEDES-BENZ,ML 350,2004,Jeep,Yes,Petrol,3.7,,186000,6,Tiptronic,Front-Rear,4-5,Left wheel,Black,12
 4956,45759924,25089,0,TOYOTA,PRIUS,2013,Hatchback,No,Hybrid,1.8,,160000,4,Automatic,Front,4-5,Left wheel,White,12
 4957,45801256,14113,474,CHEVROLET,CRUZE,2013,Sedan,No,Petrol,1.4,Turbo,120000,4,Automatic,Front,4-5,Left wheel,Silver,12
-4958,45765552,3,1502,VOLKSWAGEN,JETTA,2014,Sedan,Yes,Petrol,1.8,Turbo,134400,4,Tiptronic,Front,4-5,Right-hand drive,Black,6
 4959,45680596,45000,2606,BMW,M5,2008,Sedan,Yes,Petrol,5.0,,113473,10,Tiptronic,Rear,4-5,Left wheel,White,10
 4960,45479281,14740,574,HONDA,INSIGHT,2010,Hatchback,No,Hybrid,1.3,,88000,4,Automatic,Front,4-5,Left wheel,White,0
 4961,45651615,3763,1850,MERCEDES-BENZ,ML 350,2008,Jeep,Yes,Diesel,3.5,,366869,6,Automatic,Front-Rear,4-5,Left wheel,Black,12
@@ -4995,6 +5002,7 @@ Unnamed: 0,ID,Price,Levy,Manufacturer,Model,Prod_year,Category,Leather_interior,
 5005,45504236,17562,502,TOYOTA,PRIUS C,2013,Hatchback,No,Hybrid,1.5,,67224,4,Automatic,Front,4-5,Left wheel,Sky blue,8
 5006,45641954,3607,781,TOYOTA,CAMRY,2012,Sedan,Yes,Hybrid,2.5,,156518,4,Automatic,Front,4-5,Left wheel,White,12
 5007,45793399,17249,707,MITSUBISHI,OUTLANDER SPORT,2011,Jeep,No,Petrol,2.0,,95000,4,Tiptronic,Front,4-5,Left wheel,Silver,8
+5008,45810285,308906,1694,PORSCHE,911,2016,Coupe,Yes,Petrol,4.0,,8690,6,Automatic,Rear,2-3,Left wheel,Black,12
 5009,45491521,21953,690,HONDA,FIT,2016,Hatchback,No,Petrol,1.5,,50400,4,Variator,Front,4-5,Left wheel,Yellow,12
 5010,45804536,100,0,NISSAN,MURANO,2004,Jeep,No,Petrol,3.0,,200000,4,Automatic,Front-Rear,5,Left wheel,Black,5
 5011,45635096,16935,765,FORD,FUSION,2015,Sedan,Yes,Petrol,2.0,,71454,4,Automatic,Front,4-5,Left wheel,Black,0
@@ -5826,6 +5834,7 @@ Unnamed: 0,ID,Price,Levy,Manufacturer,Model,Prod_year,Category,Leather_interior,
 5837,45653494,706,490,HONDA,INSIGHT,2011,Hatchback,Yes,Hybrid,1.3,,288704,4,Automatic,Front,4-5,Left wheel,White,0
 5838,45805473,11917,0,MERCEDES-BENZ,B 170,2007,Sedan,Yes,Petrol,1.7,,102000,4,Automatic,Front,4-5,Left wheel,Black,11
 5839,45803947,21103,642,HYUNDAI,TUCSON,2012,Jeep,Yes,Diesel,2.0,,119310,4,Automatic,Front,4-5,Left wheel,Silver,4
+5840,44991441,254024,1292,MERCEDES-BENZ,GLE 400 A M G,2016,Jeep,Yes,Petrol,3.0,Turbo,73000,6,Tiptronic,Front-Rear,4-5,Left wheel,Black,12
 5841,45660722,34811,690,LEXUS,RX 450,2016,Jeep,Yes,Hybrid,3.5,,0,6,Automatic,Front,4-5,Left wheel,Grey,12
 5842,45808278,1098,1091,MAZDA,1000,2016,Jeep,Yes,Petrol,2.5,,0,4,Automatic,Front-Rear,4-5,Left wheel,Blue,12
 5843,45715348,17249,502,TOYOTA,PRIUS C,2013,Hatchback,No,Hybrid,1.5,,79000,4,Automatic,Front,4-5,Left wheel,Grey,8
@@ -5875,7 +5884,6 @@ Unnamed: 0,ID,Price,Levy,Manufacturer,Model,Prod_year,Category,Leather_interior,
 5887,45814907,9879,1058,TOYOTA,HIGHLANDER,2012,Jeep,Yes,Petrol,3.5,,285186,6,Automatic,Front,4-5,Left wheel,Grey,12
 5888,45769155,862,1024,FORD,ESCAPE,2010,Jeep,Yes,Hybrid,2.5,,174926,4,Automatic,Front,4-5,Left wheel,Grey,0
 5889,45720161,10349,0,MERCEDES-BENZ,E 270 CDI,2001,Sedan,No,Diesel,2.7,Turbo,245000,5,Tiptronic,Rear,4-5,Left wheel,Black,10
-5890,45788811,3,0,MERCEDES-BENZ,CLK 230,2004,Coupe,Yes,Petrol,2.3,,328000,4,Manual,Rear,2-3,Left wheel,Blue,0
 5891,45798523,18189,0,FORD,FOCUS,2015,Hatchback,No,Petrol,2.0,,21000,4,Manual,Front,4-5,Left wheel,Carnelian red,10
 5892,45502205,26657,1018,BMW,528,2011,Sedan,Yes,Petrol,3.0,,103000,6,Tiptronic,Rear,4-5,Left wheel,Black,10
 5893,45789793,4547,0,MAZDA,MPV,2003,Minivan,No,CNG,2.3,,170000,4,Automatic,Front,5,Right-hand drive,White,8
@@ -6442,6 +6450,7 @@ Unnamed: 0,ID,Price,Levy,Manufacturer,Model,Prod_year,Category,Leather_interior,
 6454,45732649,12544,765,HYUNDAI,SONATA,2015,Sedan,Yes,LPG,2.0,,650556,4,Automatic,Front,4-5,Left wheel,Orange,4
 6455,45803382,10349,639,HYUNDAI,SONATA,2014,Sedan,Yes,LPG,2.0,,639273,4,Automatic,Front,4-5,Left wheel,White,4
 6456,45695027,13015,781,TOYOTA,CAMRY,2012,Sedan,No,Hybrid,2.5,,118882,4,Tiptronic,Front,4-5,Left wheel,Red,12
+6457,45025127,136420,1493,MERCEDES-BENZ,GLE 350,2016,Jeep,Yes,Petrol,3.5,,45000,6,Tiptronic,Rear,4-5,Left wheel,Grey,12
 6458,45642835,2352,503,HONDA,CIVIC,2012,Jeep,Yes,Hybrid,1.5,,146403,4,Automatic,Front,4-5,Left wheel,White,0
 6459,45293747,75266,0,BMW,X5,2015,Jeep,Yes,Petrol,3.0,Turbo,53638,6,Tiptronic,Front-Rear,4-5,Left wheel,Grey,12
 6460,45798415,22894,0,TOYOTA,PRIUS,2013,Sedan,Yes,Hybrid,1.8,,145000,4,Automatic,Front,4-5,Left wheel,White,0
@@ -6452,6 +6461,7 @@ Unnamed: 0,ID,Price,Levy,Manufacturer,Model,Prod_year,Category,Leather_interior,
 6465,43278948,9000,1268,HONDA,FRED,2012,Minivan,No,Hybrid,1.5,,83000,4,Automatic,Front,4-5,Right-hand drive,White,4
 6466,45732611,54458,694,HYUNDAI,SANTA FE,2014,Jeep,Yes,Diesel,2.2,,83126,4,Automatic,Front,4-5,Left wheel,White,4
 6467,45438005,16621,765,FORD,FOCUS TITANIUM,2015,Sedan,No,Petrol,2.0,,79000,4,Tiptronic,Front,4-5,Left wheel,Golden,8
+6468,45796870,172486,0,LEXUS,LX 570,2013,Jeep,Yes,Petrol,5.7,,78400,8,Tiptronic,Front-Rear,4-5,Left wheel,Black,12
 6469,45805946,21326,0,TOYOTA,PRIUS C,2012,Hatchback,Yes,Petrol,1.5,,162000,4,Automatic,Front,4-5,Left wheel,Silver,0
 6470,45780341,15053,0,KIA,OPTIMA,2012,Sedan,No,Petrol,2.4,,178528,6,Tiptronic,Front,4-5,Left wheel,Brown,0
 6471,45797102,37066,1091,HYUNDAI,H1,2016,Minivan,Yes,Diesel,2.5,,91804,4,Automatic,Front,4-5,Left wheel,Silver,4
@@ -6731,6 +6741,7 @@ Unnamed: 0,ID,Price,Levy,Manufacturer,Model,Prod_year,Category,Leather_interior,
 6745,45651914,392,640,FORD,FUSION,2013,Sedan,Yes,Hybrid,2.0,,215965,4,Automatic,Front,4-5,Left wheel,Black,0
 6746,45653996,15500,0,MERCEDES-BENZ,E 320 4 4,2004,Sedan,Yes,CNG,3.2,,315994,4,Automatic,Front-Rear,4-5,Left wheel,Silver,8
 6747,45792000,10000,473,CHEVROLET,CRUZE,2014,Sedan,No,Petrol,1.4,,87000,4,Tiptronic,Front,4-5,Left wheel,Silver,8
+6748,45283485,131716,1017,MERCEDES-BENZ,GLC 300 GLC COUPE,2017,Jeep,Yes,Petrol,2.0,Turbo,28226,8,Tiptronic,Front-Rear,4-5,Left wheel,White,12
 6749,45765081,94,1017,MERCEDES-BENZ,E 300,2017,Sedan,Yes,Petrol,2.0,,1600,4,Automatic,Rear,4-5,Left wheel,Black,12
 6750,45770572,28539,639,MAZDA,CX-5,2014,Jeep,No,Petrol,2.0,,8900,4,Automatic,Front,4-5,Left wheel,Blue,12
 6751,45808858,2500,0,DAIHATSU,FEROZA,1994,Jeep,No,Petrol,1.6,,100000,4,Manual,Front-Rear,2-3,Left wheel,Green,0
@@ -7013,6 +7024,7 @@ Unnamed: 0,ID,Price,Levy,Manufacturer,Model,Prod_year,Category,Leather_interior,
 7028,44454075,15053,0,FORD,FOCUS,2014,Sedan,No,Petrol,2.0,,33000,4,Tiptronic,Front,4-5,Left wheel,Carnelian red,10
 7029,45808898,25089,777,TOYOTA,CAMRY,2014,Sedan,No,Petrol,2.5,,166400,4,Tiptronic,Front,4-5,Left wheel,Silver,10
 7030,45816074,2587,639,HYUNDAI,SANTA FE,2014,Jeep,Yes,Petrol,2.0,,174664,4,Automatic,Front,4-5,Left wheel,White,12
+7031,45789817,141124,1304,BMW,M6,2013,Coupe,Yes,Petrol,4.4,Turbo,79500,8,Tiptronic,Rear,4-5,Left wheel,Black,12
 7032,45794837,15053,765,VOLKSWAGEN,JETTA,2015,Sedan,No,Petrol,2.0,,60010,4,Tiptronic,Front,4-5,Left wheel,White,10
 7033,45771111,3607,629,NISSAN,JUKE,2015,Jeep,Yes,Petrol,1.6,,103358,4,Automatic,Front-Rear,4-5,Left wheel,Blue,0
 7034,45810041,63152,784,HONDA,CIVIC,2017,Sedan,Yes,Petrol,1.5,,7176,4,Automatic,Front,4-5,Left wheel,Blue,4
@@ -7257,13 +7269,13 @@ Unnamed: 0,ID,Price,Levy,Manufacturer,Model,Prod_year,Category,Leather_interior,
 7273,45803771,35846,877,HYUNDAI,TUCSON,2017,Jeep,Yes,Diesel,1.7,,114886,4,Automatic,Front,4-5,Left wheel,White,4
 7274,45815376,20385,0,NISSAN,MURANO,2005,Jeep,Yes,CNG,3.5,,155200,6,Automatic,Front-Rear,4-5,Left wheel,Silver,8
 7275,45773734,29793,1053,MERCEDES-BENZ,E 350,2014,Sedan,Yes,Diesel,3.5,,219030,6,Automatic,Front-Rear,4-5,Left wheel,Black,12
-7276,45814977,3,0,MERCEDES-BENZ,G 55 AMG,2020,Jeep,Yes,LPG,1.8,Turbo,1212,12,Manual,Front-Rear,5,Left wheel,Purple,0
 7277,45732786,20165,765,HYUNDAI,SONATA,2015,Sedan,Yes,Petrol,2.0,,14368,4,Automatic,Front,4-5,Left wheel,Black,4
 7278,45808574,549,586,TOYOTA,PRIUS,2012,Hatchback,Yes,Hybrid,1.8,,297496,4,Automatic,Front,4-5,Left wheel,Red,12
 7279,45810451,27924,891,CHEVROLET,ORLANDO,2016,Jeep,Yes,LPG,2.0,,114058,4,Automatic,Front,4-5,Left wheel,White,4
 7280,45656512,941,1055,LEXUS,RX 450,2013,Jeep,Yes,Hybrid,3.5,,361603,6,Automatic,Front,4-5,Left wheel,Black,12
 7281,45763754,46728,1811,LEXUS,GX 460,2010,Jeep,Yes,Petrol,4.6,,260771,8,Automatic,Front-Rear,4-5,Left wheel,Black,0
 7282,45792409,21639,1016,KIA,OPTIMA,2017,Sedan,Yes,Petrol,2.0,,33005,4,Automatic,Front,4-5,Left wheel,Black,4
+7283,45420737,228935,0,MERCEDES-BENZ,GLE 63 AMG,2018,Jeep,Yes,Petrol,5.5,Turbo,23000,8,Tiptronic,Front-Rear,4-5,Left wheel,Black,16
 7284,45582737,15681,586,TOYOTA,PRIUS V,2012,Hatchback,No,Hybrid,1.8,,129202,4,Automatic,Front,4-5,Left wheel,Blue,10
 7285,45766234,12388,1399,MERCEDES-BENZ,E 350,2010,Sedan,Yes,Diesel,3.5,,189530,6,Automatic,Front-Rear,4-5,Left wheel,Black,12
 7286,45786938,25089,0,MERCEDES-BENZ,ML 350 4MATIC,2008,Jeep,Yes,LPG,3.5,,151000,6,Tiptronic,Front-Rear,4-5,Left wheel,White,8
@@ -7333,6 +7345,7 @@ Unnamed: 0,ID,Price,Levy,Manufacturer,Model,Prod_year,Category,Leather_interior,
 7350,45806696,9722,761,TOYOTA,PRIUS,2010,Sedan,Yes,Hybrid,1.8,,400000,4,Variator,Front,4-5,Left wheel,Carnelian red,8
 7351,45656245,188,308,TOYOTA,PRIUS,2014,Hatchback,Yes,Hybrid,1.8,,146019,4,Automatic,Front,4-5,Left wheel,White,12
 7352,45769860,9408,645,FORD,TRANSIT CONNECT,2011,Goods wagon,No,Diesel,1.8,Turbo,219123,4,Manual,Front,4-5,Left wheel,Silver,8
+7353,43683199,216391,0,MERCEDES-BENZ,G 65 AMG G63 AMG,2013,Jeep,Yes,Petrol,5.5,Turbo,54000,8,Tiptronic,Front-Rear,4-5,Left wheel,Black,12
 7354,45730971,23207,1324,HYUNDAI,GENESIS,2010,Sedan,Yes,Petrol,3.3,,194404,4,Automatic,Front,4-5,Left wheel,Black,4
 7355,45649865,784,1646,LEXUS,GX 460,2015,Jeep,Yes,Petrol,4.6,,129931,8,Automatic,Front-Rear,4-5,Left wheel,Black,0
 7356,45803125,13297,707,HYUNDAI,SONATA,2011,Sedan,Yes,Petrol,2.0,,149000,4,Automatic,Front,4-5,Left wheel,Silver,4
@@ -7697,6 +7710,7 @@ Unnamed: 0,ID,Price,Levy,Manufacturer,Model,Prod_year,Category,Leather_interior,
 7715,45785121,9408,0,FORD,ESCAPE,2001,Jeep,Yes,Petrol,3.0,,175430,6,Automatic,Front,4-5,Left wheel,Black,2
 7716,45801567,17562,779,TOYOTA,CAMRY,2013,Sedan,Yes,Petrol,2.5,,90000,4,Automatic,Front,4-5,Left wheel,Carnelian red,12
 7717,45759277,12544,0,BMW,525,2003,Sedan,Yes,Petrol,2.5,,25000,6,Tiptronic,Rear,4-5,Left wheel,Grey,0
+7718,43797018,167781,1292,LAND ROVER,RANGE ROVER,2016,Jeep,Yes,Diesel,3.0,Turbo,81000,6,Tiptronic,Front-Rear,4-5,Left wheel,Grey,12
 7719,45766064,2195,1086,DODGE,AVENGER,2012,Sedan,Yes,Petrol,3.6,,198979,6,Automatic,Front,4-5,Left wheel,White,12
 7720,44120119,2509,0,AUDI,ALLROAD,2004,Universal,Yes,Petrol,2.7,Turbo,0,6,Tiptronic,Front-Rear,4-5,Left wheel,Blue,8
 7721,45486869,10506,475,FIAT,500 S,2012,Hatchback,Yes,Petrol,1.4,,110000,4,Manual,Front,2-3,Left wheel,Black,12
@@ -7727,6 +7741,7 @@ Unnamed: 0,ID,Price,Levy,Manufacturer,Model,Prod_year,Category,Leather_interior,
 7746,45815571,10036,0,LINCOLN,NAVIGATOR,1998,Jeep,Yes,Petrol,5.4,,155200,8,Automatic,Front-Rear,4-5,Left wheel,Black,6
 7747,45680258,55509,0,LAND ROVER,RANGE ROVER,2012,Jeep,Yes,Petrol,5.0,Turbo,139200,8,Tiptronic,Front-Rear,4-5,Left wheel,Black,12
 7748,45801061,3600,724,VAZ,2107,2010,Sedan,Yes,Petrol,1.7,,64098,4,Manual,Rear,4-5,Left wheel,Silver,4
+7749,45760644,288521,2269,BMW,M5,2018,Sedan,Yes,Petrol,4.4,,13500,8,Tiptronic,Front-Rear,4-5,Left wheel,Black,0
 7750,45733187,11290,891,HYUNDAI,SONATA,2016,Sedan,Yes,LPG,2.0,,292837,4,Automatic,Front,4-5,Left wheel,Silver,4
 7751,45652893,470,753,HYUNDAI,SONATA,2012,Sedan,Yes,Hybrid,2.4,,202864,4,Automatic,Front,4-5,Left wheel,Blue,0
 7752,45761961,2822,0,VOLKSWAGEN,VENTO,1993,Sedan,No,CNG,1.8,,1000,4,Manual,Front,4-5,Left wheel,Silver,2
@@ -7792,7 +7807,6 @@ Unnamed: 0,ID,Price,Levy,Manufacturer,Model,Prod_year,Category,Leather_interior,
 7812,45799489,11917,761,CHEVROLET,CRUZE,2010,Sedan,Yes,Petrol,1.8,,120000,4,Tiptronic,Front,4-5,Left wheel,Black,6
 7813,45729921,44134,831,SSANGYONG,ACTYON,2017,Jeep,Yes,Diesel,1.6,,67000,4,Automatic,Front,4-5,Left wheel,Green,4
 7814,45432915,6899,0,HONDA,CR-V,1998,Jeep,No,Petrol,2.0,,282099,4,Automatic,Front,4-5,Left wheel,Black,0
-7815,45765530,1,0,OPEL,ASTRA,1999,Sedan,Yes,Petrol,1.6,,122231,4,Manual,Front,4-5,Left wheel,Silver,4
 7816,45730100,42171,880,SSANGYONG,ACTYON,2018,Jeep,Yes,Diesel,1.6,,74221,4,Automatic,Front,4-5,Left wheel,Blue,4
 7817,45281776,9408,994,FORD,TOURNEO CONNECT,2008,Goods wagon,No,Diesel,1.8,Turbo,121000,4,Manual,Front,4-5,Left wheel,White,4
 7818,45701469,10349,1620,FORD,TRANSIT,2006,Microbus,No,Diesel,2.2,,171300,4,Manual,Front,4-5,Left wheel,White,2
@@ -7974,6 +7988,7 @@ Unnamed: 0,ID,Price,Levy,Manufacturer,Model,Prod_year,Category,Leather_interior,
 7994,45769665,16621,1172,MERCEDES-BENZ,E 350,2011,Sedan,Yes,Diesel,3.5,,119379,6,Automatic,Front-Rear,4-5,Left wheel,Silver,12
 7995,44855951,23364,442,CHEVROLET,MALIBU HYBRID,2017,Sedan,No,Hybrid,1.8,,39187,4,Automatic,Front,4-5,Left wheel,Grey,8
 7996,45792063,862,640,CHEVROLET,MALIBU,2013,Sedan,Yes,Petrol,2.0,,114107,4,Automatic,Front,4-5,Left wheel,Blue,12
+7997,45812826,147397,1869,JEEP,WRANGLER,2019,Jeep,Yes,Petrol,3.6,,18000,6,Automatic,Front-Rear,4-5,Left wheel,Grey,16
 7998,45798864,14740,0,TOYOTA,PRIUS,2010,Sedan,No,Petrol,1.8,,165000,4,Variator,Front,4-5,Left wheel,White,6
 7999,45767454,282,640,AUDI,A4,2013,Sedan,Yes,Petrol,2.0,,157584,4,Automatic,Front-Rear,4-5,Left wheel,Black,0
 8000,45794164,6272,0,MERCEDES-BENZ,CLK 230,2001,Coupe,No,Petrol,2.3,,236687,4,Manual,Rear,2-3,Left wheel,Black,2
@@ -8968,7 +8983,6 @@ Unnamed: 0,ID,Price,Levy,Manufacturer,Model,Prod_year,Category,Leather_interior,
 8990,45471406,23521,779,TOYOTA,CAMRY,2013,Sedan,Yes,Hybrid,2.5,,16960,4,Automatic,Front,4-5,Left wheel,Golden,10
 8991,45808580,3607,831,NISSAN,SENTRA,2017,Sedan,Yes,Petrol,1.6,,26965,4,Automatic,Front,4-5,Left wheel,Grey,12
 8992,45816376,1568,1018,BMW,X5,2011,Jeep,Yes,Diesel,3.0,,270326,6,Automatic,Front-Rear,4-5,Left wheel,White,12
-8993,45816350,3,595,TOYOTA,PRIUS C,2015,Hatchback,Yes,Petrol,1.5,,75200,4,Automatic,Front,4-5,Left wheel,Red,12
 8994,45721698,17562,697,TOYOTA,PRIUS,2015,Sedan,Yes,Petrol,1.8,,132000,4,Tiptronic,Front,4-5,Left wheel,White,6
 8995,34417507,60,0,SUZUKI,GRAND VITARA,2007,Jeep,No,Petrol,2.7,,83000,6,Automatic,Rear,4-5,Left wheel,Silver,12
 8996,44441382,17876,0,TOYOTA,CAMRY,2007,Sedan,No,LPG,2.4,,167435,4,Tiptronic,Front,4-5,Left wheel,Silver,6
@@ -9095,6 +9109,7 @@ Unnamed: 0,ID,Price,Levy,Manufacturer,Model,Prod_year,Category,Leather_interior,
 9117,45816591,251,584,HYUNDAI,ELANTRA,2014,Sedan,Yes,Petrol,1.8,,40963,4,Automatic,Front,4-5,Left wheel,Blue,12
 9118,45773293,2901,586,CHEVROLET,CRUZE,2012,Sedan,Yes,Petrol,1.8,,181550,4,Automatic,Front,4-5,Left wheel,Blue,12
 9119,45815080,5645,781,TOYOTA,CAMRY,2012,Sedan,Yes,Petrol,2.5,,230336,4,Automatic,Front,4-5,Left wheel,Black,12
+9120,45283485,131716,1017,MERCEDES-BENZ,GLC 300 GLC COUPE,2017,Jeep,Yes,Petrol,2.0,Turbo,28226,8,Tiptronic,Front-Rear,4-5,Left wheel,White,12
 9121,45655119,188,1172,LEXUS,RX 450,2011,Jeep,Yes,Hybrid,3.5,,101816,6,Automatic,Front-Rear,4-5,Left wheel,Black,12
 9122,45065619,12231,503,TOYOTA,YARIS,2012,Hatchback,No,Petrol,1.5,,136640,4,Automatic,Front,2-3,Left wheel,White,8
 9123,44934463,12858,528,FORD,FIESTA,2014,Hatchback,No,Petrol,1.6,,56000,4,Automatic,Front,4-5,Left wheel,Beige,10
@@ -9174,6 +9189,7 @@ Unnamed: 0,ID,Price,Levy,Manufacturer,Model,Prod_year,Category,Leather_interior,
 9197,45809865,56177,690,HONDA,CIVIC,2016,Coupe,Yes,Petrol,1.5,,50497,4,Automatic,Front,4-5,Left wheel,Black,4
 9198,45787204,45473,780,VOLKSWAGEN,JETTA,2019,Sedan,Yes,Petrol,1.4,,35000,4,Tiptronic,Front,4-5,Left wheel,White,12
 9199,44699289,12231,0,NISSAN,X-TRAIL NISSAN X TRAIL R,2006,Jeep,Yes,Petrol,2.0,,160000,4,Automatic,Front-Rear,4-5,Left wheel,Black,6
+9200,45748414,141124,1575,MERCEDES-BENZ,GLS 450,2018,Jeep,Yes,Petrol,3.0,,40000,6,Tiptronic,Front-Rear,4-5,Left wheel,Black,12
 9201,45772075,22580,1017,MERCEDES-BENZ,E 300,2017,Sedan,Yes,Petrol,2.0,,50930,4,Automatic,Rear,4-5,Left wheel,Black,12
 9202,44714424,17876,353,TOYOTA,PRIUS,2015,Sedan,No,Hybrid,1.8,,203101,4,Automatic,Front,4-5,Left wheel,White,12
 9203,45806426,1568,642,AUDI,A3,2012,Jeep,Yes,Diesel,2.0,,167398,4,Automatic,Front,4-5,Left wheel,White,12
@@ -9221,6 +9237,7 @@ Unnamed: 0,ID,Price,Levy,Manufacturer,Model,Prod_year,Category,Leather_interior,
 9245,45763718,627,934,MAZDA,1000,2015,Sedan,Yes,Petrol,2.5,,113102,4,Automatic,Front-Rear,4-5,Left wheel,Red,12
 9246,43400117,1650,0,MITSUBISHI,CHARIOT,1998,Goods wagon,No,Petrol,2.4,,1000,6,Automatic,Front,4-5,Right-hand drive,Silver,4
 9247,43374774,106627,0,PORSCHE,PANAMERA 4,2014,Sedan,Yes,Petrol,3.6,,57000,6,Tiptronic,Front-Rear,4-5,Left wheel,Grey,12
+9248,45761401,172486,0,PORSCHE,MACAN,2019,Jeep,Yes,Petrol,2.0,Turbo,7400,6,Tiptronic,Front-Rear,4-5,Left wheel,Black,15
 9249,45732934,16308,891,HYUNDAI,SONATA,2016,Sedan,Yes,LPG,2.0,,510225,4,Automatic,Front,4-5,Left wheel,White,4
 9250,45813837,22266,2658,DODGE,CHALLENGER,2016,Coupe,Yes,Petrol,6.4,,72995,8,Automatic,Rear,2-3,Left wheel,Red,12
 9251,45721611,5959,0,OPEL,VECTRA,1999,Goods wagon,No,Petrol,1.8,,200000,4,Manual,Front,4-5,Left wheel,Silver,4
@@ -9339,6 +9356,7 @@ Unnamed: 0,ID,Price,Levy,Manufacturer,Model,Prod_year,Category,Leather_interior,
 9364,45809845,18033,584,TOYOTA,PRIUS,2014,Sedan,No,Petrol,1.8,,187200,4,Automatic,Front,4-5,Left wheel,Blue,8
 9365,45656271,470,753,HYUNDAI,SONATA,2012,Sedan,Yes,Hybrid,2.4,,202864,4,Automatic,Front,4-5,Left wheel,Blue,0
 9366,45812751,627,1080,CHEVROLET,TRAVERSE,2014,Jeep,Yes,Petrol,3.6,,151358,6,Automatic,Front,4-5,Left wheel,Red,12
+9367,45229113,297930,0,MERCEDES-BENZ,AMG GT S,2015,Coupe,Yes,Petrol,4.0,Turbo,20000,8,Tiptronic,Rear,2-3,Left wheel,White,16
 9368,45774092,5645,1108,FORD,MUSTANG,2014,Sedan,Yes,Petrol,3.7,,167046,6,Automatic,Rear,4-5,Left wheel,White,12
 9369,45433610,11917,649,HONDA,FIT,2010,Hatchback,No,Petrol,1.5,,129000,4,Automatic,Front,4-5,Left wheel,Blue,0
 9370,45809369,31211,400,HONDA,FIT,2018,Universal,Yes,Hybrid,1.5,,57809,4,Automatic,Front,4-5,Left wheel,Black,4
@@ -9701,7 +9719,6 @@ Unnamed: 0,ID,Price,Levy,Manufacturer,Model,Prod_year,Category,Leather_interior,
 9727,45649746,3136,781,TOYOTA,CAMRY,2012,Sedan,Yes,Hybrid,2.5,,159379,4,Automatic,Front,4-5,Left wheel,White,12
 9728,45801627,19707,530,HYUNDAI,ELANTRA,2013,Sedan,Yes,Petrol,1.6,,110000,4,Automatic,Front,4-5,Left wheel,Grey,4
 9729,45809476,34240,891,CHEVROLET,CAPTIVA,2016,Jeep,Yes,Diesel,2.0,,149361,4,Automatic,Front,4-5,Left wheel,Silver,4
-9730,45654295,3,900,KIA,SPORTAGE,2015,Jeep,No,Petrol,2.4,,50345,4,Tiptronic,Front-Rear,4-5,Left wheel,Blue,12
 9731,45416958,15400,640,HYUNDAI,SONATA,2013,Sedan,Yes,Petrol,2.0,Turbo,107000,4,Tiptronic,Front,4-5,Left wheel,Silver,8
 9732,45794049,10976,0,AUDI,A4,2008,Sedan,Yes,Petrol,2.0,Turbo,226000,8,Tiptronic,Front-Rear,5,Left wheel,Grey,4
 9733,45771472,10000,0,NISSAN,SKYLINE,2007,Sedan,Yes,Petrol,2.5,,1200,6,Tiptronic,Front-Rear,4-5,Right-hand drive,Silver,6
@@ -10224,6 +10241,7 @@ Unnamed: 0,ID,Price,Levy,Manufacturer,Model,Prod_year,Category,Leather_interior,
 10250,45540661,16500,585,TOYOTA,PRIUS,2013,Hatchback,No,Hybrid,1.8,,91373,4,Automatic,Front,4-5,Left wheel,Sky blue,8
 10251,45765331,314,2410,MERCEDES-BENZ,E 350,2010,Sedan,Yes,Diesel,6.2,,274771,8,Automatic,Rear,4-5,Left wheel,White,12
 10252,45481285,21953,0,NISSAN,JUKE,2013,Jeep,Yes,Petrol,1.6,Turbo,91000,4,Automatic,Front-Rear,4-5,Left wheel,Grey,4
+10253,45785166,131716,0,TOYOTA,LAND CRUISER PRADO,2018,Jeep,Yes,Diesel,3.0,Turbo,5292,6,Automatic,Front-Rear,4-5,Left wheel,White,12
 10254,45779824,10349,0,TOYOTA,MATRIX XR,2003,Hatchback,No,LPG,1.8,,190400,4,Automatic,Front,4-5,Left wheel,Silver,8
 10255,45760292,32929,0,BMW,535,2012,Sedan,Yes,Petrol,3.0,Turbo,152000,6,Tiptronic,Rear,4-5,Left wheel,Black,8
 10256,45779026,11604,0,FORD,TRANSIT,1998,Microbus,No,Diesel,2.5,,12345,4,Manual,Rear,4-5,Left wheel,White,2
@@ -10393,6 +10411,7 @@ Unnamed: 0,ID,Price,Levy,Manufacturer,Model,Prod_year,Category,Leather_interior,
 10420,45744732,6269,790,DAEWOO,LACETTI,2009,Sedan,Yes,Petrol,1.6,,60563,4,Automatic,Front,4-5,Left wheel,Black,4
 10421,45794703,18801,308,TOYOTA,PRIUS,2014,Hatchback,No,Hybrid,1.8,,106000,4,Variator,Front,4-5,Left wheel,Grey,0
 10422,45778746,9095,0,NISSAN,TIIDA,2005,Hatchback,Yes,Petrol,1.5,,140000,4,Automatic,Front-Rear,4-5,Right-hand drive,Black,6
+10423,44650638,150533,1575,LAND ROVER,RANGE ROVER VELAR,2018,Jeep,Yes,Petrol,3.0,Turbo,22000,6,Tiptronic,Front-Rear,4-5,Left wheel,White,12
 10424,45730073,41281,730,SSANGYONG,ACTYON,2016,Jeep,Yes,Diesel,1.6,,31754,4,Automatic,Front,4-5,Left wheel,Blue,4
 10425,45732698,15681,891,HYUNDAI,SONATA,2016,Sedan,Yes,LPG,2.0,,256768,4,Automatic,Front,4-5,Left wheel,Silver,4
 10426,45815496,22894,1360,LEXUS,LS 460,2013,Sedan,Yes,Petrol,4.6,,154258,8,Automatic,Front-Rear,4-5,Left wheel,White,12
@@ -10728,6 +10747,7 @@ Unnamed: 0,ID,Price,Levy,Manufacturer,Model,Prod_year,Category,Leather_interior,
 10756,43642888,26343,934,TOYOTA,CAMRY SE,2015,Sedan,Yes,Petrol,2.5,,47128,4,Automatic,Front,4-5,Left wheel,Black,8
 10757,45797689,19757,1024,HYUNDAI,H1,2010,Jeep,Yes,Diesel,2.5,,115028,4,Automatic,Front,4-5,Left wheel,Silver,4
 10758,45803487,8467,639,HYUNDAI,SONATA,2014,Sedan,Yes,LPG,2.0,,636908,4,Automatic,Front,4-5,Left wheel,Orange,4
+10759,45291161,260296,0,LEXUS,LX 570,2018,Jeep,Yes,Petrol,5.7,Turbo,17700,8,Tiptronic,Front-Rear,4-5,Left wheel,Black,10
 10760,45648999,392,779,TOYOTA,CAMRY,2013,Sedan,Yes,Hybrid,2.5,,232032,4,Automatic,Front,4-5,Left wheel,Silver,12
 10761,45488682,23207,810,VOLKSWAGEN,JETTA,2016,Sedan,Yes,Petrol,1.8,Turbo,27000,4,Tiptronic,Front,4-5,Left wheel,Grey,6
 10762,45778674,30420,0,BMW,X5,2012,Jeep,Yes,Diesel,3.0,Turbo,198211,6,Tiptronic,Front-Rear,4-5,Left wheel,Grey,12
@@ -10853,7 +10873,6 @@ Unnamed: 0,ID,Price,Levy,Manufacturer,Model,Prod_year,Category,Leather_interior,
 10882,45802578,45542,639,HYUNDAI,SANTA FE,2014,Jeep,Yes,Diesel,2.0,,55112,4,Automatic,Front,4-5,Left wheel,Silver,4
 10883,45772795,2200,967,NISSAN,MICRA,1996,Sedan,No,CNG,1.1,,220000,6,Manual,Rear,4-5,Left wheel,Green,0
 10884,45730521,19278,707,SSANGYONG,REXTON,2011,Jeep,Yes,Diesel,2.0,,130663,4,Automatic,Front,4-5,Left wheel,Black,4
-10885,45682283,3,0,CHEVROLET,CRUZE,2018,Sedan,No,Petrol,1.4,,61000,4,Tiptronic,Front,4-5,Left wheel,Grey,8
 10886,45523136,23521,0,CHEVROLET,VOLT,2012,Hatchback,No,Plug-in Hybrid,1.4,,188000,4,Automatic,Front,4-5,Left wheel,Carnelian red,10
 10887,45786365,12544,629,VOLKSWAGEN,POLO,2015,Sedan,No,Petrol,1.6,,270000,4,Manual,Front,4-5,Left wheel,White,2
 10888,45767314,5331,0,VOLKSWAGEN,PASSAT,1998,Sedan,No,Diesel,1.9,Turbo,0,4,Manual,Front,4-5,Left wheel,Blue,4
@@ -11604,7 +11623,6 @@ Unnamed: 0,ID,Price,Levy,Manufacturer,Model,Prod_year,Category,Leather_interior,
 11633,45591643,14113,0,TOYOTA,PRIUS,2006,Sedan,No,Hybrid,1.5,,0,4,Variator,Front,4-5,Left wheel,Silver,12
 11634,45649752,862,394,TOYOTA,CAMRY,2014,Sedan,Yes,Hybrid,2.5,,130478,4,Automatic,Front,4-5,Left wheel,White,12
 11635,45772936,392,1017,MERCEDES-BENZ,E 300,2017,Sedan,Yes,Petrol,2.0,,1600,4,Automatic,Rear,4-5,Left wheel,Black,12
-11636,45470589,3,0,MERCEDES-BENZ,C 220,1998,Sedan,No,Diesel,2.2,,20600,4,Manual,Rear,4-5,Left wheel,Black,2
 11637,45530515,25716,1588,NISSAN,NAVARA,2007,Pickup,No,Diesel,2.5,Turbo,220000,4,Automatic,Front-Rear,4-5,Left wheel,Silver,8
 11638,45792343,17092,764,KIA,OPTIMA,2015,Sedan,Yes,Petrol,2.0,,41088,4,Automatic,Front,4-5,Left wheel,Black,4
 11639,45650064,18817,609,TOYOTA,CAMRY,2018,Sedan,Yes,Hybrid,2.5,,35058,4,Automatic,Front,4-5,Left wheel,White,12
@@ -11909,6 +11927,7 @@ Unnamed: 0,ID,Price,Levy,Manufacturer,Model,Prod_year,Category,Leather_interior,
 11938,45812974,157,749,HYUNDAI,SONATA,2014,Sedan,Yes,Petrol,2.4,,144123,4,Automatic,Front,4-5,Left wheel,Silver,12
 11939,45809103,7053,502,TOYOTA,AQUA,2013,Hatchback,Yes,Hybrid,1.5,,152517,4,Automatic,Front,4-5,Left wheel,Black,4
 11940,45799992,23521,0,MITSUBISHI,DELICA,2007,Minivan,No,Petrol,2.4,,227000,6,Tiptronic,Front-Rear,4-5,Right-hand drive,Grey,6
+11941,45761450,156805,0,BMW,X5 M,2015,Jeep,Yes,Petrol,4.4,Turbo,65500,8,Automatic,Front-Rear,4-5,Left wheel,Blue,12
 11942,45809675,53185,784,HONDA,CIVIC,2017,Sedan,Yes,Petrol,1.5,,38037,4,Automatic,Front,4-5,Left wheel,White,4
 11943,45808704,7840,0,MERCEDES-BENZ,E 200,1995,Sedan,No,CNG,2.0,,554,4,Manual,Rear,4-5,Left wheel,Blue,2
 11944,45655549,470,586,TOYOTA,PRIUS,2012,Hatchback,Yes,Hybrid,1.8,,373634,4,Automatic,Front,4-5,Left wheel,White,12
@@ -12717,6 +12736,7 @@ Unnamed: 0,ID,Price,Levy,Manufacturer,Model,Prod_year,Category,Leather_interior,
 12747,45772044,14269,1053,TOYOTA,SIENNA,2014,Sedan,Yes,Petrol,3.5,,0,6,Automatic,Front,4-5,Left wheel,Grey,12
 12748,44788599,39201,0,BMW,435,2015,Coupe,Yes,Petrol,3.0,Turbo,56000,6,Tiptronic,Rear,2-3,Left wheel,Black,12
 12749,41349011,17249,0,TOYOTA,PRIUS C 2013,2013,Hatchback,No,Hybrid,1.5,,110000,4,Automatic,Front,4-5,Left wheel,Silver,12
+12750,45809098,137885,2566,FORD,MUSTANG,2018,Coupe,Yes,Petrol,5.0,,15305,4,Automatic,Front,4-5,Left wheel,Black,4
 12751,45787726,2800,0,VOLKSWAGEN,GOLF,1993,Hatchback,No,Diesel,1.9,Turbo,237580,4,Manual,Front,4-5,Left wheel,Green,4
 12752,45758241,17562,1356,LEXUS,GX 470,2014,Jeep,Yes,Petrol,4.6,,146218,8,Automatic,Front-Rear,4-5,Left wheel,Black,0
 12753,45765698,4861,1058,MERCEDES-BENZ,E 350,2012,Sedan,Yes,Diesel,3.5,,128202,6,Automatic,Rear,4-5,Left wheel,Black,12
@@ -13231,6 +13251,7 @@ Unnamed: 0,ID,Price,Levy,Manufacturer,Model,Prod_year,Category,Leather_interior,
 13262,45762461,706,503,HONDA,FIT,2012,Jeep,Yes,Petrol,1.5,,277856,4,Automatic,Front,4-5,Left wheel,White,0
 13263,45796759,44517,1249,HYUNDAI,H1,2017,Universal,Yes,Diesel,2.5,,97440,4,Automatic,Front,4-5,Left wheel,Grey,4
 13264,45161909,43278,0,MERCEDES-BENZ,S 350 CDI 320,2011,Sedan,Yes,Diesel,3.2,Turbo,240000,6,Tiptronic,Rear,4-5,Left wheel,Black,12
+13265,39856789,144261,0,BMW,M4 COMPETITION,2017,Coupe,Yes,Petrol,3.0,Turbo,17000,6,Tiptronic,Rear,2-3,Left wheel,Orange,12
 13266,45802663,41886,891,HYUNDAI,SANTA FE,2016,Jeep,Yes,Diesel,2.0,,166588,4,Automatic,Front,4-5,Left wheel,Grey,4
 13267,45667886,16308,0,TOYOTA,PRIUS C,2014,Sedan,Yes,Hybrid,1.5,,75000,4,Automatic,Front,4-5,Left wheel,Silver,8
 13268,45764221,14113,676,VOLKSWAGEN,CADDY,2011,Goods wagon,No,Diesel,1.9,Turbo,171000,4,Manual,Front,4-5,Left wheel,White,2
@@ -13293,6 +13314,7 @@ Unnamed: 0,ID,Price,Levy,Manufacturer,Model,Prod_year,Category,Leather_interior,
 13325,43432352,54000,0,ASTON MARTIN,VIRAGE,2007,Coupe,Yes,Petrol,4.3,,72000,8,Tiptronic,Rear,2-3,Left wheel,Black,8
 13326,45802838,23138,836,HYUNDAI,SANTA FE,2010,Jeep,Yes,Diesel,2.0,,188083,4,Automatic,Front,4-5,Left wheel,Black,4
 13327,45656579,470,586,TOYOTA,PRIUS,2012,Hatchback,Yes,Hybrid,1.8,,373634,4,Automatic,Front,4-5,Left wheel,White,12
+13328,44956069,193184,0,MERCEDES-BENZ,GLE 400 COUPE. AMG KIT,2018,Jeep,Yes,Petrol,3.0,Turbo,20000,6,Automatic,Front-Rear,4-5,Left wheel,Silver,12
 13329,45795596,11604,843,TOYOTA,PRIUS,2008,Hatchback,No,Hybrid,1.5,,100000,4,Variator,Front,4-5,Left wheel,Black,10
 13330,41228647,89379,0,MERCEDES-BENZ,ML 300,2015,Jeep,Yes,Petrol,3.0,Turbo,66000,12,Tiptronic,Front-Rear,4-5,Left wheel,Black,10
 13331,45453862,10500,0,FORD,FIESTA,2010,Sedan,No,Petrol,1.6,,11111,2,Automatic,Front,4-5,Left wheel,White,6
@@ -13315,6 +13337,7 @@ Unnamed: 0,ID,Price,Levy,Manufacturer,Model,Prod_year,Category,Leather_interior,
 13348,45796983,13589,1185,HYUNDAI,H1,2009,Universal,Yes,Diesel,2.5,,242021,4,Automatic,Front,4-5,Left wheel,Red,4
 13349,45810509,14953,364,CHEVROLET,ORLANDO,2012,Jeep,Yes,Diesel,1.0,,155329,4,Automatic,Front,4-5,Left wheel,Silver,4
 13350,45774072,9879,1018,MERCEDES-BENZ,E 350,2011,Sedan,Yes,Diesel,3.0,,273186,6,Automatic,Rear,4-5,Left wheel,White,12
+13351,45775006,163077,0,BMW,M6 GRAN CUPE,2014,Sedan,Yes,Petrol,0.4,Turbo,100000,8,Automatic,Rear,4-5,Left wheel,Black,12
 13352,45803186,10036,639,HYUNDAI,SONATA,2014,Sedan,Yes,LPG,2.0,,377942,4,Automatic,Front,4-5,Left wheel,Silver,4
 13353,45661607,314,1646,LEXUS,GX 460,2015,Jeep,Yes,Petrol,4.6,,102907,8,Automatic,Front-Rear,4-5,Left wheel,Black,0
 13354,45779734,18817,749,KIA,OPTIMA,2014,Sedan,Yes,Petrol,2.4,,66379,4,Automatic,Front,4-5,Left wheel,Red,12
@@ -13382,7 +13405,6 @@ Unnamed: 0,ID,Price,Levy,Manufacturer,Model,Prod_year,Category,Leather_interior,
 13416,45757938,21639,1296,FORD,TRANSIT,2008,Microbus,No,Diesel,2.4,Turbo,176890,4,Manual,Rear,4-5,Left wheel,Blue,2
 13417,45757698,6586,638,NISSAN,MOCO,2012,Sedan,No,Petrol,0.7,,150000,3,Automatic,Front,4-5,Right-hand drive,Black,2
 13418,45795124,8154,0,OPEL,MONTEREY,1993,Jeep,No,Petrol,3.2,,275652,6,Automatic,Front-Rear,4-5,Left wheel,Grey,2
-13419,45816352,3,503,TOYOTA,PRIUS C,2012,Hatchback,Yes,Petrol,1.5,,172800,4,Automatic,Front,4-5,Left wheel,Grey,12
 13420,45797370,9261,687,HYUNDAI,I30,2010,Sedan,Yes,Diesel,1.6,,72140,4,Automatic,Front,4-5,Left wheel,Silver,4
 13421,45798752,37633,0,PEUGEOT,3008,2013,Hatchback,Yes,Hybrid,2.0,,130000,4,Tiptronic,Front-Rear,4-5,Left wheel,Black,10
 13422,45732624,9164,765,HYUNDAI,SONATA,2015,Sedan,Yes,LPG,2.0,,695562,4,Automatic,Front,4-5,Left wheel,Orange,4
@@ -13723,6 +13745,7 @@ Unnamed: 0,ID,Price,Levy,Manufacturer,Model,Prod_year,Category,Leather_interior,
 13757,45694880,15681,528,FORD,FIESTA,2014,Hatchback,Yes,Petrol,1.6,,94640,4,Tiptronic,Front,4-5,Left wheel,Red,8
 13758,45742723,4858,0,MERCEDES-BENZ,C 180,1996,Sedan,No,CNG,1.8,,220000,4,Manual,Rear,4-5,Left wheel,Silver,4
 13759,45784972,19757,0,HYUNDAI,VELOSTER,2016,Hatchback,Yes,Petrol,1.6,Turbo,31000,4,Tiptronic,Front,2-3,Left wheel,Silver,6
+13760,45282558,141124,0,MERCEDES-BENZ,GLC 250,2018,Jeep,Yes,Petrol,2.0,Turbo,37554,8,Tiptronic,Front-Rear,4-5,Left wheel,Black,12
 13761,43022143,46728,765,HYUNDAI,TUCSON,2015,Jeep,Yes,Diesel,2.0,Turbo,31000,4,Tiptronic,Front,4-5,Left wheel,Silver,12
 13762,45779155,13485,503,TOYOTA,PRIUS C,2012,Hatchback,No,Hybrid,1.5,,208000,4,Automatic,Front,4-5,Left wheel,White,6
 13763,45801257,16935,0,TOYOTA,PRIUS,2011,Sedan,No,Hybrid,1.8,,235000,4,Automatic,Front,4-5,Left wheel,Blue,0
@@ -14435,6 +14458,7 @@ Unnamed: 0,ID,Price,Levy,Manufacturer,Model,Prod_year,Category,Leather_interior,
 14470,45794092,9722,0,MITSUBISHI,PAJERO IO,2001,Jeep,No,Petrol,2.0,,25000,4,Manual,Front-Rear,4-5,Left wheel,Black,0
 14471,45658673,627,1360,LEXUS,GX 460,2013,Sedan,Yes,Petrol,4.6,,243467,8,Automatic,Front-Rear,4-5,Left wheel,White,0
 14472,45763175,251,490,HONDA,INSIGHT,2011,Hatchback,Yes,Hybrid,1.3,,216858,4,Automatic,Front,4-5,Left wheel,Grey,0
+14473,45283485,131716,1017,MERCEDES-BENZ,GLC 300 GLC COUPE,2017,Jeep,Yes,Petrol,2.0,Turbo,28226,8,Tiptronic,Front-Rear,4-5,Left wheel,White,12
 14474,45804530,22063,836,HYUNDAI,TUCSON,2010,Jeep,Yes,Diesel,2.0,,167512,4,Automatic,Front,4-5,Left wheel,Grey,4
 14475,45766721,23207,607,TOYOTA,CAMRY,2019,Sedan,Yes,Hybrid,2.5,,30504,4,Automatic,Front,4-5,Left wheel,Silver,12
 14476,41505994,29166,0,SUBARU,IMPREZA SPORT,2018,Hatchback,No,Petrol,2.0,,42000,4,Manual,Front-Rear,4-5,Left wheel,Red,6
@@ -14453,7 +14477,6 @@ Unnamed: 0,ID,Price,Levy,Manufacturer,Model,Prod_year,Category,Leather_interior,
 14489,39689487,23521,1083,DODGE,CHALLENGER,2013,Coupe,No,Petrol,3.6,,156192,2,Manual,Rear,4-5,Left wheel,Blue,12
 14490,45798128,12849,687,HYUNDAI,ELANTRA,2010,Sedan,Yes,Petrol,1.6,,113861,4,Automatic,Front,4-5,Left wheel,Silver,4
 14491,45765362,31047,1820,TOYOTA,TACOMA,2019,Sedan,Yes,Petrol,3.5,,17542,6,Automatic,Rear,4-5,Left wheel,Silver,12
-14492,45720411,3,697,VOLKSWAGEN,JETTA,2015,Sedan,Yes,Petrol,1.8,Turbo,65000,4,Automatic,Front,4-5,Left wheel,Grey,12
 14493,45808879,11604,893,KIA,CEED,2008,Goods wagon,No,Diesel,1.6,Turbo,78000,4,Manual,Front,4-5,Left wheel,Grey,10
 14494,45797178,19068,586,HYUNDAI,ELANTRA,2012,Sedan,Yes,Petrol,1.8,,189853,4,Automatic,Front,4-5,Left wheel,White,4
 14495,45644947,29479,1058,TOYOTA,HIGHLANDER,2012,Jeep,Yes,Hybrid,3.5,,205250,6,Automatic,Front-Rear,4-5,Left wheel,Silver,12
@@ -14603,7 +14626,6 @@ Unnamed: 0,ID,Price,Levy,Manufacturer,Model,Prod_year,Category,Leather_interior,
 14639,45789973,6241,1090,KIA,SPORTAGE,2008,Jeep,Yes,Diesel,2.0,,273421,4,Automatic,Front,4-5,Left wheel,Silver,4
 14640,45760134,2038,503,HONDA,FIT,2012,Sedan,Yes,Petrol,1.5,,167158,4,Automatic,Front,4-5,Left wheel,Grey,0
 14641,45741892,17562,781,SUBARU,OUTBACK,2012,Jeep,No,Petrol,2.5,,118000,4,Tiptronic,Front-Rear,4-5,Left wheel,Black,12
-14642,45816369,3,87,PORSCHE,PANAMERA,2011,Sedan,Yes,Petrol,0.0,,196800,6,Automatic,Rear,4-5,Left wheel,Black,12
 14643,45797384,28357,777,HYUNDAI,H1,2014,Minivan,Yes,Diesel,2.5,,151780,4,Automatic,Front,4-5,Left wheel,Silver,4
 14644,45813704,549,1481,JAGUAR,DAIMLER,2017,Jeep,Yes,Petrol,3.0,,81270,6,Automatic,Front-Rear,4-5,Left wheel,White,12
 14645,45396672,67000,915,AUDI,A7,2014,Sedan,Yes,Petrol,3.0,,50000,1,Tiptronic,Front-Rear,4-5,Left wheel,Black,12
@@ -14724,6 +14746,7 @@ Unnamed: 0,ID,Price,Levy,Manufacturer,Model,Prod_year,Category,Leather_interior,
 14760,45647763,314,779,TOYOTA,CAMRY,2013,Sedan,Yes,Hybrid,2.5,,225510,4,Automatic,Front,4-5,Left wheel,White,12
 14761,45810550,19416,642,CHEVROLET,ORLANDO,2012,Jeep,Yes,Diesel,2.0,,172125,4,Automatic,Front,4-5,Left wheel,Grey,4
 14762,45803316,12880,836,HYUNDAI,SONATA,2010,Sedan,Yes,Petrol,2.0,,173177,4,Automatic,Front,4-5,Left wheel,White,4
+14763,45517726,141124,0,MERCEDES-BENZ,S 550,2014,Sedan,Yes,Petrol,4.7,Turbo,148000,8,Tiptronic,Rear,4-5,Left wheel,Black,12
 14764,45810381,21395,1017,CHEVROLET,ORLANDO,2017,Jeep,Yes,LPG,2.0,,204067,4,Automatic,Front,4-5,Left wheel,Grey,4
 14765,45395857,10976,0,MERCEDES-BENZ,E 270,2001,Sedan,No,Diesel,2.7,,305000,5,Tiptronic,Rear,4-5,Left wheel,Silver,12
 14766,45647798,10349,915,BMW,X5,2014,Jeep,Yes,Diesel,3.0,,0,6,Automatic,Front-Rear,4-5,Left wheel,Black,0
@@ -14799,6 +14822,7 @@ Unnamed: 0,ID,Price,Levy,Manufacturer,Model,Prod_year,Category,Leather_interior,
 14836,45814813,392,1055,MERCEDES-BENZ,C 300,2013,Sedan,Yes,Petrol,3.5,,186093,6,Automatic,Front-Rear,4-5,Left wheel,Black,12
 14837,45625914,392,919,BMW,X5,2012,Jeep,Yes,Diesel,3.0,,296395,6,Automatic,Front-Rear,4-5,Left wheel,Grey,0
 14838,45766289,3763,832,TOYOTA,TACOMA,2014,Jeep,Yes,Petrol,2.7,,64994,4,Automatic,Rear,4-5,Left wheel,Grey,12
+14839,45792307,297930,0,LAND ROVER,RANGE ROVER VOGUE,2019,Jeep,Yes,Diesel,3.0,Turbo,4500,8,Tiptronic,Front-Rear,4-5,Left wheel,Black,12
 14840,45781696,24148,777,TOYOTA,CAMRY,2014,Sedan,Yes,Petrol,2.5,,61000,4,Tiptronic,Front,4-5,Left wheel,Black,8
 14841,45666856,23521,738,VOLKSWAGEN,JETTA,2017,Sedan,Yes,Petrol,1.4,Turbo,11700,4,Tiptronic,Front,4-5,Left wheel,White,6
 14842,45753290,11917,1132,TOYOTA,PRIUS,2006,Sedan,No,Petrol,1.5,,160000,4,Automatic,Front,4-5,Left wheel,Red,12
@@ -15242,6 +15266,7 @@ Unnamed: 0,ID,Price,Levy,Manufacturer,Model,Prod_year,Category,Leather_interior,
 15280,45338403,12858,843,RENAULT,MEGANE,2008,Goods wagon,Yes,Diesel,1.5,Turbo,17400,4,Manual,Front,4-5,Left wheel,Grey,8
 15281,44238131,5645,0,HONDA,FIT,2005,Hatchback,No,Petrol,1.3,,67000,4,Automatic,Front,4-5,Right-hand drive,Yellow,4
 15282,43132736,22580,530,NISSAN,JUKE,2013,Jeep,No,Petrol,1.6,Turbo,74954,4,Manual,Front,4-5,Left wheel,White,8
+15283,45069516,250574,1481,MERCEDES-BENZ,GLE 400,2017,Jeep,Yes,Petrol,3.0,Turbo,81600,6,Tiptronic,Front-Rear,4-5,Left wheel,Black,12
 15284,45798467,24775,0,BMW,X5,2005,Jeep,Yes,Diesel,3.0,Turbo,200000,2,Manual,Front-Rear,4-5,Left wheel,Silver,12
 15285,45797463,44843,1091,HYUNDAI,H1,2016,Universal,Yes,Diesel,2.5,,110846,4,Automatic,Front,4-5,Left wheel,Grey,4
 15286,45730674,2822,481,FORD,FUSION,2017,Sedan,Yes,Hybrid,2.0,,79578,4,Automatic,Front,4-5,Left wheel,Black,12
@@ -15305,7 +15330,6 @@ Unnamed: 0,ID,Price,Levy,Manufacturer,Model,Prod_year,Category,Leather_interior,
 15344,45761021,1411,294,VOLKSWAGEN,JETTA,2015,Sedan,Yes,Hybrid,1.4,,130037,4,Automatic,Front,4-5,Left wheel,Grey,12
 15345,45782587,6272,0,MITSUBISHI,OUTLANDER,2003,Jeep,No,CNG,2.4,,207000,4,Tiptronic,Front,4-5,Left wheel,White,4
 15346,45759671,549,639,SUBARU,FORESTER,2014,Jeep,Yes,Petrol,2.0,,72613,4,Automatic,Front-Rear,4-5,Left wheel,White,0
-15347,45761457,3,0,BMW,525,1995,Sedan,No,Petrol,2.8,,2147483647,6,Manual,Rear,4-5,Left wheel,Black,3
 15348,45760414,12231,0,FORD,TRANSIT,1999,Microbus,No,Diesel,2.5,Turbo,400000,4,Manual,Rear,4-5,Left wheel,Blue,2
 15349,45793704,53314,0,BMW,535,2015,Sedan,Yes,Petrol,3.0,Turbo,93000,6,Tiptronic,Rear,4-5,Left wheel,Black,12
 15350,45714943,16308,697,HYUNDAI,ELANTRA,2015,Sedan,No,Petrol,1.8,,94561,4,Tiptronic,Front,4-5,Left wheel,Blue,6
@@ -15371,6 +15395,7 @@ Unnamed: 0,ID,Price,Levy,Manufacturer,Model,Prod_year,Category,Leather_interior,
 15410,45810505,15681,694,FORD,TRANSIT,2014,Microbus,No,Diesel,2.2,Turbo,168000,4,Manual,Front,2-3,Left wheel,White,0
 15411,45480063,10500,1031,NISSAN,NOTE,2013,Hatchback,No,Petrol,1.2,,35000,3,Variator,Front,4-5,Right-hand drive,Black,2
 15412,45637390,4704,0,BMW,525 VANOS,1996,Sedan,Yes,Petrol,2.5,,232000,6,Manual,Rear,4-5,Left wheel,Green,4
+15413,45801212,153669,1823,BMW,M3,2018,Sedan,Yes,Petrol,3.5,Turbo,3900,12,Manual,Rear,4-5,Left wheel,Black,16
 15414,45793629,5802,1282,CHEVROLET,CAPTIVA,2007,Jeep,Yes,Diesel,2.0,,72816,5,Automatic,Front,4-5,Left wheel,Silver,4
 15415,45732654,16308,891,HYUNDAI,SONATA,2016,Sedan,Yes,LPG,2.0,,240573,4,Automatic,Front,4-5,Left wheel,White,4
 15416,45789876,4077,1094,SSANGYONG,KYRON,2008,Jeep,Yes,Diesel,2.0,,54752,4,Automatic,Front,4-5,Left wheel,Silver,4
@@ -16624,6 +16649,7 @@ Unnamed: 0,ID,Price,Levy,Manufacturer,Model,Prod_year,Category,Leather_interior,
 16664,45810619,6586,364,CHEVROLET,SPARK,2012,Hatchback,Yes,Petrol,1.0,,40079,4,Automatic,Front,4-5,Left wheel,Black,4
 16665,45292910,12500,645,FORD,TRANSIT CONNECT,2011,Goods wagon,No,Diesel,1.8,Turbo,180000,4,Manual,Front,2-3,Left wheel,Green,2
 16666,45759593,7840,0,MERCEDES-BENZ,E 200,1997,Sedan,No,Petrol,2.0,,305125,4,Manual,Rear,4-5,Left wheel,Blue,4
+16667,45107574,141124,1481,MERCEDES-BENZ,GLE 43 AMG,2017,Coupe,Yes,Petrol,3.0,Turbo,14914,6,Automatic,Front-Rear,4-5,Left wheel,White,12
 16668,45767516,470,1750,TOYOTA,HIGHLANDER,2008,Jeep,Yes,Hybrid,3.3,,182024,6,Automatic,Front-Rear,4-5,Left wheel,Black,12
 16669,45776399,20385,0,VOLKSWAGEN,PASSAT TSI-SE,2013,Sedan,Yes,Petrol,1.8,Turbo,159978,4,Tiptronic,Front,4-5,Left wheel,Grey,8
 16670,45814760,11604,0,TOYOTA,AQUA,2013,Hatchback,Yes,Hybrid,1.5,,118000,4,Variator,Front,4-5,Right-hand drive,White,4
@@ -16947,7 +16973,6 @@ Unnamed: 0,ID,Price,Levy,Manufacturer,Model,Prod_year,Category,Leather_interior,
 16989,45765022,17249,353,TOYOTA,PRIUS,2015,Hatchback,No,Hybrid,1.8,,205338,4,Automatic,Front,4-5,Left wheel,Silver,0
 16990,45810341,2352,980,TOYOTA,COROLLA,2018,Sedan,Yes,Petrol,1.8,,31176,4,Automatic,Front,4-5,Left wheel,Black,12
 16991,45815360,470,1399,LEXUS,RX 350,2010,Jeep,Yes,Petrol,3.5,,138070,6,Automatic,Front-Rear,4-5,Left wheel,Black,12
-16992,45772201,1,1202,CHEVROLET,LACETTI,2006,Hatchback,No,Petrol,1.6,,200000,4,Manual,Front,4-5,Left wheel,Black,2
 16993,45730349,15718,1099,SSANGYONG,REXTON,2010,Jeep,Yes,Diesel,2.7,,246600,4,Automatic,Front,4-5,Left wheel,Black,4
 16994,45706058,13291,586,TOYOTA,PRIUS,2012,Sedan,Yes,Hybrid,1.8,,198400,4,Automatic,Front,4-5,Left wheel,Grey,0
 16995,45776781,13172,1296,TOYOTA,CAMRY,2008,Sedan,No,Hybrid,2.4,,192000,4,Tiptronic,Front,4-5,Left wheel,Silver,12
@@ -17551,7 +17576,6 @@ Unnamed: 0,ID,Price,Levy,Manufacturer,Model,Prod_year,Category,Leather_interior,
 17593,45810886,392,1307,CHEVROLET,CAMARO,2015,Sedan,Yes,Petrol,3.6,,168621,6,Automatic,Rear,4-5,Left wheel,Carnelian red,12
 17594,45810132,11964,790,CHEVROLET,LACETTI,2009,Sedan,Yes,Petrol,1.6,,138205,4,Automatic,Front,4-5,Left wheel,White,4
 17595,45635118,549,650,VOLKSWAGEN,JETTA,2016,Sedan,Yes,Diesel,1.4,,112760,4,Automatic,Front,4-5,Left wheel,Brown,12
-17596,45776620,3,0,HYUNDAI,SONATA,2011,Sedan,Yes,Petrol,2.4,,106422,4,Tiptronic,Front,4-5,Left wheel,White,6
 17597,45644306,10976,0,KIA,PICANTO,2016,Sedan,No,Petrol,1.2,,94000,4,Manual,Front,4-5,Left wheel,Silver,6
 17598,42655225,13956,629,KIA,SOUL,2015,Jeep,No,Petrol,1.6,,85985,4,Manual,Front,4-5,Left wheel,Grey,8
 17599,43052071,13485,0,BMW,X5,2002,Jeep,Yes,LPG,3.0,,290000,6,Tiptronic,Front-Rear,4-5,Left wheel,Black,10
@@ -17823,6 +17847,7 @@ Unnamed: 0,ID,Price,Levy,Manufacturer,Model,Prod_year,Category,Leather_interior,
 17865,45758945,14113,986,TOYOTA,CAMRY,2010,Sedan,Yes,Hybrid,2.4,,80000,4,Tiptronic,Front,4-5,Left wheel,Silver,7
 17866,45654595,34811,690,LEXUS,RX 450,2016,Jeep,Yes,Hybrid,3.5,,0,6,Automatic,Front,4-5,Left wheel,Grey,12
 17867,45798044,18817,0,HYUNDAI,ELANTRA,2012,Sedan,Yes,Petrol,1.8,,81250,4,Automatic,Front,4-5,Left wheel,Silver,12
+17868,43720197,150533,0,JAGUAR,F-TYPE R,2015,Sedan,Yes,Petrol,5.0,Turbo,31000,8,Tiptronic,Rear,2-3,Left wheel,Orange,6
 17869,45404481,31361,0,BUICK,ENCORE,2016,Jeep,Yes,Petrol,1.4,,24000,4,Automatic,Front,4-5,Left wheel,White,0
 17870,45772363,54568,1363,LEXUS,GX 460,2012,Jeep,Yes,Petrol,4.6,,255406,8,Automatic,Front-Rear,4-5,Left wheel,Black,0
 17871,45489486,314,831,FORD,TRANSIT,2011,Microbus,No,Diesel,2.4,,164000,4,Manual,Front-Rear,4-5,Left wheel,White,2
@@ -17916,6 +17941,7 @@ Unnamed: 0,ID,Price,Levy,Manufacturer,Model,Prod_year,Category,Leather_interior,
 17959,45786758,6000,0,OPEL,COMBO,2003,Goods wagon,No,Diesel,1.3,Turbo,225000,4,Manual,Front,2-3,Left wheel,Red,1
 17960,45030307,15524,650,CHEVROLET,CRUZE LT,2016,Sedan,No,Petrol,1.4,Turbo,263630,4,Automatic,Front,4-5,Left wheel,Red,8
 17961,45732767,16599,836,HYUNDAI,SONATA,2010,Sedan,Yes,Petrol,2.0,,173000,4,Automatic,Front,4-5,Left wheel,Black,4
+17962,45474920,136000,1575,MERCEDES-BENZ,GLE 400,2018,Jeep,Yes,Petrol,3.0,Turbo,99000,6,Tiptronic,Front-Rear,4-5,Left wheel,White,10
 17963,45791868,17111,934,TOYOTA,CAMRY,2015,Sedan,Yes,Petrol,2.5,,98000,6,Tiptronic,Rear,4-5,Left wheel,White,8
 17964,45523775,12544,843,TOYOTA,PRIUS,2008,Hatchback,No,Hybrid,1.5,,91000,4,Variator,Front,4-5,Left wheel,Blue,13
 17965,45809270,30950,639,CHEVROLET,CAPTIVA,2014,Jeep,Yes,Diesel,2.0,,104536,4,Automatic,Front,4-5,Left wheel,Grey,4
@@ -18184,6 +18210,7 @@ Unnamed: 0,ID,Price,Levy,Manufacturer,Model,Prod_year,Category,Leather_interior,
 18228,45766921,15053,0,MERCEDES-BENZ,320,2003,Sedan,Yes,LPG,3.2,,340000,6,Automatic,Rear,4-5,Left wheel,Black,10
 18229,45755017,12544,843,TOYOTA,PRIUS,2008,Sedan,Yes,Hybrid,1.5,,207005,4,Automatic,Front,4-5,Left wheel,Blue,8
 18230,45780034,10976,0,MERCEDES-BENZ,CLK 320,2004,Coupe,Yes,Petrol,3.2,,208000,6,Automatic,Rear,2-3,Left wheel,Black,6
+18231,45183554,131716,0,TOYOTA,LAND CRUISER,2018,Jeep,Yes,Diesel,3.0,Turbo,59826,4,Automatic,Front-Rear,4-5,Left wheel,Black,12
 18232,45802342,18305,781,HYUNDAI,H1,2012,Minivan,Yes,Diesel,2.5,,61272,4,Automatic,Front,4-5,Left wheel,Silver,4
 18233,45007940,13570,0,CHEVROLET,NIVA,2010,Jeep,No,Petrol,1.7,,71436,6,Manual,Front-Rear,4-5,Left wheel,Brown,4
 18234,45773910,2666,697,VOLKSWAGEN,PASSAT,2015,Sedan,Yes,Petrol,1.8,,36235,4,Automatic,Front,4-5,Left wheel,Black,12
@@ -18833,6 +18860,7 @@ Unnamed: 0,ID,Price,Levy,Manufacturer,Model,Prod_year,Category,Leather_interior,
 18878,45290317,51746,1058,LEXUS,RX 350,2012,Jeep,Yes,Petrol,3.5,,53000,6,Tiptronic,Front,4-5,Left wheel,Beige,10
 18879,44731507,16621,1018,CHEVROLET,EQUINOX,2011,Jeep,No,Petrol,3.0,,192000,6,Tiptronic,Front-Rear,4-5,Left wheel,Black,8
 18880,45789515,20385,1054,MERCEDES-BENZ,SPRINTER,2009,Microbus,No,Diesel,2.2,Turbo,175000,4,Manual,Rear,4-5,Left wheel,White,2
+18881,44587551,147397,0,JAGUAR,F-PACE,2017,Jeep,No,Diesel,2.0,,17060,1,Automatic,Front-Rear,4-5,Left wheel,Grey,0
 18882,45782164,7840,0,OPEL,ASTRA,1999,Hatchback,No,Petrol,1.8,,199000,4,Manual,Front,4-5,Left wheel,Silver,0
 18883,45801381,12544,843,TOYOTA,PRIUS,2008,Hatchback,No,Hybrid,1.5,,246000,4,Variator,Front,4-5,Left wheel,Silver,12
 18884,45350122,29793,0,MERCEDES-BENZ,CLS 63 AMG,2006,Sedan,Yes,Petrol,6.3,,94000,8,Tiptronic,Rear,4-5,Left wheel,Black,12
