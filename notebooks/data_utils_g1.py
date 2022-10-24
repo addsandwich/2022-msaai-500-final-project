@@ -108,6 +108,7 @@ def random_mean_sample(data, group_size):
         x = 0
         temp = n if a >= i * n + n else a - i * n
         for j in range(temp):
-            x += data.iloc[n * i + j]['Price']
+            x += data.iloc[n * i + j]
         res.append(int(x / temp))
-    return res.sort()
+        res.sort()
+    return res
